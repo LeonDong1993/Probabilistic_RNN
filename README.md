@@ -6,7 +6,7 @@ This repository contains all codes, datasets for the paper `A New Modeling Frame
 - Clone this repository to your local disk.
 - Download the zipped dataset from [Here](https://drive.google.com/file/d/1_iGbjvUxCrJrZ_zaxVSciqbgUmoPfSgk/view?usp=share_link) and extract all content into the `data` folder.
 - Source `core/set_env.profile` before executing any command. Otherwise, import error will be occurred.
-- Install other dependencies prompted if needed (such as `networkx`).
+- Install other dependencies if prompted (such as `networkx`).
 
 # Usage
 - `core` contains the some custom implemented library function and modules specifically for this project. That's why you need to source `core/set_env.profile` before use this set of codes. 
