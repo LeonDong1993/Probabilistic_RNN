@@ -1,0 +1,363 @@
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  data     main.py          main_trajectory.py  models    results  scripts   testing
+core            exp.log  main_seqcomp.py  main_tr.py          res_back  run.sh   temp.csv  train.py
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  data     main.py          main_trajectory.py  models    results  scripts   testing
+core            exp.log  main_seqcomp.py  main_tr.py          res_back  run.sh   temp.csv  train.py
+(py38) [leondong@cs83810 temporal]$ uptime
+ 20:56:54 up 35 days, 25 min,  7 users,  load average: 1.02, 1.08, 1.03
+(py38) [leondong@cs83810 temporal]$ watch -n 5 "uptime && free -g && nvidia-smi"
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  data     main.py          main_trajectory.py  models    results  scripts   testing   Untitled.ipynb
+core            exp.log  main_seqcomp.py  main_tr.py          res_back  run.sh   temp.csv  train.py
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  data     main.py          main_trajectory.py  models    results  scripts   testing   Untitled.ipynb
+core            exp.log  main_seqcomp.py  main_tr.py          res_back  run.sh   temp.csv  train.py
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  data     main.py          main_trajectory.py  models    results  scripts   testing   Untitled.ipynb
+core            exp.log  main_seqcomp.py  main_tr.py          res_back  run.sh   temp.csv  train.py
+(py38) [leondong@cs83810 temporal]$ cat core/utmLib/cls
+clses.py   clses.pyc
+(py38) [leondong@cs83810 temporal]$ cat core/utmLib/clses.py
+# coding: utf-8
+import time, random, sys, os, datetime
+from enum import Enum
+
+class CONST(Enum):
+    CONTINUOUS = 0
+    DISCRETE = 1
+
+# updated 07-12-22 00:47
+class ProgressIndicator:
+    def __init__(self, total, msg = 'Running', pid = False, step_pct = 1):
+        self.t = time.time()
+        self.N = total
+        self.msg = msg
+        self.pid = pid
+        # simple solution for ceil
+        self.step_size = int(total * step_pct / 100.0 + 1 - 1e-6)
+        self.at(-1)
+
+    # def reset_time(self):
+        # self.t = time.time()
+
+    def at(self, j, info = None):
+        i = j+1
+        msg = self.msg if info is None else info
+
+        if self.pid:
+            myid = os.getpid()
+            msg = 'Process {} - {}'.format(myid, msg)
+
+        out = sys.stdout
+        if i < self.N:
+            end_char = '\r'
+        else:
+            end_char = '\n'
+
+        # estimate the time left
+        cur_time = time.time()
+        time_used = cur_time-self.t
+        time_left =  time_used / (i + 0.01) * max(self.N - i, 0)
+
+        if i % self.step_size == 0 or i <= self.N:
+            percent = 100 * i / float(self.N)
+            out.write('[{} {}/{} {:.2f}% {}+{}]  {}'.format(msg,i,self.N,percent, Timer.sec2time(time_used) ,Timer.sec2time(time_left) ,end_char))
+            out.flush()
+
+class MyObject:
+    @staticmethod
+    def show_attr(obj):
+        max_name_length = 0
+        for name in obj.__dict__.keys():
+            max_name_length = max(max_name_length, len(name))
+
+        format_str = '{:>%ds} -> {}' % max_name_length
+        for k,v in obj.__dict__.items():
+            print(format_str.format(k,v))
+
+    def __getitem__(self,key):
+        return self.__dict__[key]
+
+    def __setitem__(self,k,v):
+        self.__dict__[k] = v
+
+    def show(self):
+        MyObject.show_attr(self)
+
+class Logger:
+    def __init__(self, fpath, with_time = True):
+        self.file = fpath
+        self.with_time = with_time
+        self.write('--> LOG START <--', echo = False)
+
+    def write(self, msg, echo = True):
+        if echo:
+            print(msg)
+
+        if self.with_time:
+            cur_time = Timer.get_time() + '\t'
+        else:
+            cur_time = ''
+
+        with open(self.file, 'a+') as f:
+            f.write('{}{}\n'.format(cur_time, msg))
+
+class Timer:
+    @staticmethod
+    def get_time(fmt = "%Y_%m_%d_%H_%M_%S"):
+        return time.strftime(fmt, time.localtime())
+
+    @staticmethod
+    def sleep(low, high=None, verbose = False):
+        if high == None:
+            secs=low
+        else:
+            secs=random.randint(low,high)
+        if verbose:
+            print("Sleep for {} seconds....".format(secs))
+        time.sleep(secs)
+        return
+
+    @staticmethod
+    def sec2time(t):
+        return datetime.timedelta(seconds = int(t))
+
+    def __init__(self):
+        self.reset()
+
+    def ring(self, msg = 'Execution complete'):
+        now_time = time.time()
+        elapsed_secs = now_time - self.checkpoint
+        self.checkpoint = now_time
+        print('{}, elapsed time: {}'.format(msg, Timer.sec2time(elapsed_secs)))
+
+    def reset(self):
+        self.checkpoint = time.time()
+
+
+if __name__ == "__main__":
+    print(Timer.get_time())
+    pass
+(py38) [leondong@cs83810 temporal]$ bash run.sh tr
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import optuna, tinylib, sys
+ModuleNotFoundError: No module named 'tinylib'
+Done.
+(py38) [leondong@cs83810 temporal]$ source core/set_env.profile
+(py38) [leondong@cs83810 temporal]$ bash run.sh tr
+Input data is data/japanvowels/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+^[OSModel:RNN-STD train time for 50 trial, elapsed time: 0:14:21
+Model:RNN-MG train time for 50 trial, elapsed time: 1:04:14
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 1:04:17
+Model:NN-MG train time for 50 trial, elapsed time: 2:44:21
+Input data is data/natops/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 0:13:07
+Best hyper-param found: {'drop_rate': 0.02514801328797526, 'learn_rate': 0.0032328564998962556, 'weight_decay': 0.00014913190518810675, 'hidden_size': 112}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 0:43:19
+Best hyper-param found: {'drop_rate': 0.025228585151723538, 'learn_rate': 0.00631453103939571, 'weight_decay': 0.0028967575405460418, 'hidden_size': 84}
+Model:RNN-MG train time for 50 trial, elapsed time: 0:47:40
+Best hyper-param found: {'drop_rate': 0.008641457997014577, 'learn_rate': 0.00445375335764102, 'weight_decay': 0.0016160961823645772, 'hidden_size': 112}
+Model:NN-MG train time for 50 trial, elapsed time: 2:41:41
+Best hyper-param found: {'drop_rate': 0.05295043682749681, 'learn_rate': 0.006709780976084948, 'weight_decay': 0.00016203081888827259, 'hidden_size': 112}
+Input data is data/fingermovement/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 0:21:38
+Best hyper-param found: {'drop_rate': 0.012293042322361392, 'learn_rate': 0.0023065091533948858, 'weight_decay': 0.00010123106941080408, 'hidden_size': 224}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 1:17:40
+Best hyper-param found: {'drop_rate': 0.04292118058309592, 'learn_rate': 0.0013703871400498379, 'weight_decay': 0.0002124366162620231, 'hidden_size': 224}
+Model:RNN-MG train time for 50 trial, elapsed time: 1:44:44
+Best hyper-param found: {'drop_rate': 0.018321395425750855, 'learn_rate': 0.003374131963132021, 'weight_decay': 0.0013632022324268872, 'hidden_size': 168}
+Model:NN-MG train time for 50 trial, elapsed time: 3:21:34
+Best hyper-param found: {'drop_rate': 0.30255915750774576, 'learn_rate': 0.016006862707203546, 'weight_decay': 0.001570567086784495, 'hidden_size': 168}
+Input data is data/lsst/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 0:39:32
+Best hyper-param found: {'drop_rate': 0.178329542767558, 'learn_rate': 0.0029437449885248903, 'weight_decay': 0.00020133446835152906, 'hidden_size': 48}
+Model:NN-MG train time for 50 trial, elapsed time: 1:41:19
+Best hyper-param found: {'drop_rate': 0.007546940979303551, 'learn_rate': 0.01368381709638019, 'weight_decay': 0.00012051995094285274, 'hidden_size': 48}
+Model:RNN-MG train time for 50 trial, elapsed time: 2:12:25
+Best hyper-param found: {'drop_rate': 0.0023711019978470845, 'learn_rate': 0.014753226319772644, 'weight_decay': 0.0007346470649420471, 'hidden_size': 36}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 2:52:31
+Best hyper-param found: {'drop_rate': 0.027369533640014446, 'learn_rate': 0.011708222603431772, 'weight_decay': 0.0002265170907884155, 'hidden_size': 48}
+Input data is data/wordrecognition/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 0:35:57
+Best hyper-param found: {'drop_rate': 0.063316963058758, 'learn_rate': 0.007696403407828017, 'weight_decay': 0.00010727997102847106, 'hidden_size': 72}
+Model:RNN-MG train time for 50 trial, elapsed time: 1:27:41
+Best hyper-param found: {'drop_rate': 0.009292155644353007, 'learn_rate': 0.03728685026241214, 'weight_decay': 0.00017269700311108697, 'hidden_size': 72}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 1:32:37
+Best hyper-param found: {'drop_rate': 0.006245048318382894, 'learn_rate': 0.03588008864963741, 'weight_decay': 0.0004611989499256438, 'hidden_size': 72}
+Model:NN-MG train time for 50 trial, elapsed time: 2:22:28
+Best hyper-param found: {'drop_rate': 0.018344304012014815, 'learn_rate': 0.013527042006690046, 'weight_decay': 0.00015642277402596233, 'hidden_size': 72}
+Input data is data/conll2000/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 0:12:34
+Best hyper-param found: {'drop_rate': 0.014240022143114671, 'learn_rate': 0.0032268956183562764, 'weight_decay': 0.00013619315444383403, 'hidden_size': 200}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 1:54:55
+Best hyper-param found: {'drop_rate': 0.33010315443317073, 'learn_rate': 0.006267205576207152, 'weight_decay': 0.004380164729757056, 'hidden_size': 400}
+Model:RNN-MG train time for 50 trial, elapsed time: 2:30:25
+Best hyper-param found: {'drop_rate': 0.17486478833814875, 'learn_rate': 0.003160330719413207, 'weight_decay': 0.012332520153778719, 'hidden_size': 200}
+Model:NN-MG train time for 50 trial, elapsed time: 3:07:46
+Best hyper-param found: {'drop_rate': 0.08313192024250059, 'learn_rate': 0.0001234768555376946, 'weight_decay': 0.6931681821224708, 'hidden_size': 200}
+Input data is data/arabicdigit/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 1:24:32
+Best hyper-param found: {'drop_rate': 0.00034912860420823616, 'learn_rate': 0.0014780134602076567, 'weight_decay': 0.0001716972991724793, 'hidden_size': 104}
+Model:NN-MG train time for 50 trial, elapsed time: 2:53:58
+Best hyper-param found: {'drop_rate': 0.032135167779960866, 'learn_rate': 0.016247754694262814, 'weight_decay': 0.00023252836835333088, 'hidden_size': 104}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 4:34:31
+Best hyper-param found: {'drop_rate': 0.05386843481050542, 'learn_rate': 0.0011599634023024457, 'weight_decay': 0.0001566065785153747, 'hidden_size': 104}
+Model:RNN-MG train time for 50 trial, elapsed time: 4:46:08
+Best hyper-param found: {'drop_rate': 0.07403926957723436, 'learn_rate': 0.002191682619784423, 'weight_decay': 0.0004410218057811316, 'hidden_size': 104}
+Input data is data/heartbeat/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 1:17:52
+Best hyper-param found: {'drop_rate': 0.049469767816838, 'learn_rate': 0.016514958873535372, 'weight_decay': 0.005016536911776987, 'hidden_size': 122}
+Model:RNN-MG train time for 50 trial, elapsed time: 2:13:04
+Best hyper-param found: {'drop_rate': 0.02740754410517761, 'learn_rate': 0.002032939073065767, 'weight_decay': 0.023089790259387122, 'hidden_size': 244}
+Model:RNN-STD train time for 50 trial, elapsed time: 2:13:13
+Best hyper-param found: {'drop_rate': 0.2072660219505094, 'learn_rate': 0.0005200486775477195, 'weight_decay': 0.00011698221587812764, 'hidden_size': 488}
+Model:NN-MG train time for 50 trial, elapsed time: 3:43:53
+Best hyper-param found: {'drop_rate': 0.23649297884194553, 'learn_rate': 0.009757108200079842, 'weight_decay': 0.0004983906600307844, 'hidden_size': 244}
+Input data is data/facedetect/seqs.fdt
+Directory already exist!
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [288, 1000] and step=288, but the range is not divisible by `step`. It will be replaced by [288, 864].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [288, 1000] and step=288, but the range is not divisible by `step`. It will be replaced by [288, 864].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [288, 1000] and step=288, but the range is not divisible by `step`. It will be replaced by [288, 864].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [288, 1000] and step=288, but the range is not divisible by `step`. It will be replaced by [288, 864].
+  warnings.warn(
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 5:24:22
+Best hyper-param found: {'drop_rate': 0.23797087304522702, 'learn_rate': 0.004247574862540808, 'weight_decay': 0.009469131962910061, 'hidden_size': 576}
+Model:RNN-STD train time for 50 trial, elapsed time: 6:29:47
+Best hyper-param found: {'drop_rate': 0.1876931449198446, 'learn_rate': 0.0023322770625929805, 'weight_decay': 0.00010310726642614823, 'hidden_size': 864}
+Model:NN-MG train time for 50 trial, elapsed time: 11:32:47
+Best hyper-param found: {'drop_rate': 0.2766597402131243, 'learn_rate': 0.035196076838818195, 'weight_decay': 0.0007175618034527481, 'hidden_size': 576}
+Model:RNN-MG train time for 50 trial, elapsed time: 12:07:33
+Best hyper-param found: {'drop_rate': 0.03007851518272916, 'learn_rate': 0.002999217885823368, 'weight_decay': 0.01721090754920928, 'hidden_size': 576}
+Input data is data/brown_100/seqs.fdt
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Model:RNN-STD train time for 50 trial, elapsed time: 2:05:04
+Best hyper-param found: {'drop_rate': 0.023525472472193158, 'learn_rate': 0.004949005177236037, 'weight_decay': 0.0001251588763600978, 'hidden_size': 800}
+Model:RNN-IndMGx3 train time for 50 trial, elapsed time: 2:22:39
+Best hyper-param found: {'drop_rate': 0.38954193978848467, 'learn_rate': 0.005713792773143699, 'weight_decay': 0.0006160642049527706, 'hidden_size': 200}
+Model:NN-MG train time for 50 trial, elapsed time: 3:38:06
+Best hyper-param found: {'drop_rate': 0.15237148420692614, 'learn_rate': 0.0006437364252575642, 'weight_decay': 0.044311706336895844, 'hidden_size': 200}
+Model:RNN-MG train time for 50 trial, elapsed time: 5:08:44
+Best hyper-param found: {'drop_rate': 0.22369380838604724, 'learn_rate': 0.04740297147995936, 'weight_decay': 0.007399176190146447, 'hidden_size': 400}
+Input data is data/wingbeat/seqs.fdt
+Directory already exist!
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Model:RNN-STD train time for 50 trial, elapsed time: 0:36:59
+Best hyper-param found: {'drop_rate': 0.11851467149327863, 'learn_rate': 0.0001669942929349425, 'weight_decay': 0.00010076755642292304, 'hidden_size': 398}
+qModel:RNN-IndMGx3 train time for 50 trial, elapsed time: 2:14:15
+Best hyper-param found: {'drop_rate': 0.24807881120176914, 'learn_rate': 0.0063938847103026065, 'weight_decay': 0.0037061658269157906, 'hidden_size': 398}
+Model:NN-MG train time for 50 trial, elapsed time: 4:13:43
+Best hyper-param found: {'drop_rate': 0.3591853397056807, 'learn_rate': 0.0034542134087737026, 'weight_decay': 0.06873260955832444, 'hidden_size': 398}
+Model:RNN-MG train time for 50 trial, elapsed time: 5:23:02
+Best hyper-param found: {'drop_rate': 0.27463356188468174, 'learn_rate': 0.003164929270479971, 'weight_decay': 0.005793980160427861, 'hidden_size': 796}
+Done.
+(py38) [leondong@cs83810 temporal]$ ls
+analysis.ipynb  core  data  exp.log  main.py  main_seqcomp.py  main_trajectory.py  main_tr.py  models  res_back  results  run.sh  scripts  temp.csv  testing  train.py  train_time.txt  Untitled.ipynb
+(py38) [leondong@cs83810 temporal]$ less train
+train.py        train_time.txt
+(py38) [leondong@cs83810 temporal]$ less train_time.txt
+(py38) [leondong@cs83810 temporal]$ q^C
+(py38) [leondong@cs83810 temporal]$

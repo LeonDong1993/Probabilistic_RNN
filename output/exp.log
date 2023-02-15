@@ -1,0 +1,1354 @@
+Making directory results/train/japanvowels
+Making directory results/train/natops
+Making directory results/train/fingermovement
+Making directory results/train/lsst
+Making directory results/train/wordrecognition
+Making directory results/train/arabicdigit
+Making directory results/train/heartbeat
+Directory already exist!
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Directory already exist!
+Making directory ./results/raw/trajectory/japanvowels
+Working on data/japanvowels/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -3.8517 p50 -0.9749 p75 2.3663 avg -1.1016 std 4.5745
+NN-MG TrainLL-100%: p25 1.7502 p50 3.9309 p75 6.5607 avg 3.9832 std 2.8042
+NN-MG RMSE-100%: p25 0.4319 p50 0.4984 p75 0.5713 avg 0.5029 std 0.0954
+NN-MG ISIN-10%: p25 16.6667 p50 22.2222 p75 30.5556 avg 24.0093 std 11.8578
+NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 55.5556 avg 42.9259 std 16.4041
+ALL-NN-MG RMSE-100%: p25 0.4319 p50 0.4984 p75 0.5713 avg 0.5029 std 0.0954
+ALL-NN-MG ISIN-10%: p25 16.6667 p50 22.2222 p75 30.5556 avg 24.0093 std 11.8578
+ALL-NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 55.5556 avg 42.9259 std 16.4041
+NN-MG LL calculation and prediction, elapsed time: 0:00:34
+RNN-STD RMSE-100%: p25 0.3965 p50 0.4583 p75 0.5216 avg 0.4647 std 0.0884
+RNN-STD ISIN-10%: p25 19.4444 p50 27.7778 p75 36.1111 avg 28.2222 std 13.0883
+RNN-STD ISIN-20%: p25 36.1111 p50 47.2222 p75 61.1111 avg 47.8148 std 16.1114
+ALL-RNN-STD RMSE-100%: p25 0.3965 p50 0.4583 p75 0.5216 avg 0.4647 std 0.0884
+ALL-RNN-STD ISIN-10%: p25 19.4444 p50 27.7778 p75 36.1111 avg 28.2222 std 13.0883
+ALL-RNN-STD ISIN-20%: p25 36.1111 p50 47.2222 p75 61.1111 avg 47.8148 std 16.1114
+RNN-STD LL calculation and prediction, elapsed time: 0:00:00
+RNN-MG LL-100%: p25 -1.243 p50 1.3429 p75 4.3008 avg 1.2994 std 3.6804
+RNN-MG TrainLL-100%: p25 -0.6771 p50 1.9193 p75 4.6269 avg 1.7851 std 3.2116
+RNN-MG RMSE-100%: p25 0.4024 p50 0.47 p75 0.5332 avg 0.473 std 0.0894
+RNN-MG ISIN-10%: p25 16.6667 p50 25.0 p75 38.8889 avg 27.75 std 13.9508
+RNN-MG ISIN-20%: p25 36.1111 p50 44.4444 p75 58.3333 avg 47.1759 std 16.1692
+ALL-RNN-MG RMSE-100%: p25 0.4024 p50 0.47 p75 0.5332 avg 0.473 std 0.0894
+ALL-RNN-MG ISIN-10%: p25 16.6667 p50 25.0 p75 38.8889 avg 27.75 std 13.9508
+ALL-RNN-MG ISIN-20%: p25 36.1111 p50 44.4444 p75 58.3333 avg 47.1759 std 16.1692
+RNN-MG LL calculation and prediction, elapsed time: 0:01:32
+RNN-IndMGx3 LL-100%: p25 -2.1787 p50 0.262 p75 4.2466 avg 0.6254 std 4.01
+RNN-IndMGx3 TrainLL-100%: p25 -1.1794 p50 1.2202 p75 4.4318 avg 1.4412 std 3.5863
+RNN-IndMGx3 RMSE-100%: p25 0.4008 p50 0.454 p75 0.5253 avg 0.4672 std 0.0884
+RNN-IndMGx3 ISIN-10%: p25 19.4444 p50 25.0 p75 36.1111 avg 28.3519 std 12.9131
+RNN-IndMGx3 ISIN-20%: p25 36.1111 p50 47.2222 p75 58.3333 avg 47.8519 std 16.2562
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.4008 p50 0.454 p75 0.5253 avg 0.4672 std 0.0884
+ALL-RNN-IndMGx3 ISIN-10%: p25 19.4444 p50 25.0 p75 36.1111 avg 28.3519 std 12.9131
+ALL-RNN-IndMGx3 ISIN-20%: p25 36.1111 p50 47.2222 p75 58.3333 avg 47.8519 std 16.2562
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:00
+Results saved.
+Making directory ./results/raw/trajectory/natops
+Working on data/natops/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -8.0737 p50 -0.9109 p75 6.4953 avg -2.6976 std 11.7677
+NN-MG TrainLL-100%: p25 6.0557 p50 11.2257 p75 15.443 avg 10.7375 std 4.7938
+NN-MG RMSE-100%: p25 0.2958 p50 0.3407 p75 0.4097 avg 0.3768 std 0.1166
+NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 27.0767 std 12.9051
+NN-MG ISIN-20%: p25 33.3333 p50 47.619 p75 59.5238 avg 46.9974 std 16.786
+ALL-NN-MG RMSE-100%: p25 0.2958 p50 0.3407 p75 0.4097 avg 0.3768 std 0.1166
+ALL-NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 27.0767 std 12.9051
+ALL-NN-MG ISIN-20%: p25 33.3333 p50 47.619 p75 59.5238 avg 46.9974 std 16.786
+NN-MG LL calculation and prediction, elapsed time: 0:00:24
+RNN-STD RMSE-100%: p25 0.2627 p50 0.3068 p75 0.3521 avg 0.3195 std 0.083
+RNN-STD ISIN-10%: p25 28.5714 p50 35.7143 p75 45.2381 avg 36.7063 std 13.5407
+RNN-STD ISIN-20%: p25 47.619 p50 57.1429 p75 69.0476 avg 57.4868 std 14.7715
+ALL-RNN-STD RMSE-100%: p25 0.2627 p50 0.3068 p75 0.3521 avg 0.3195 std 0.083
+ALL-RNN-STD ISIN-10%: p25 28.5714 p50 35.7143 p75 45.2381 avg 36.7063 std 13.5407
+ALL-RNN-STD ISIN-20%: p25 47.619 p50 57.1429 p75 69.0476 avg 57.4868 std 14.7715
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 1.0808 p50 5.8991 p75 13.8509 avg 5.6073 std 9.1583
+RNN-MG TrainLL-100%: p25 5.8167 p50 10.3157 p75 15.6495 avg 10.5085 std 5.1111
+Making directory ./results/raw/trajectory0/japanvowels
+Working on data/japanvowels/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -3.8517 p50 -0.9749 p75 2.3663 avg -1.1016 std 4.5745
+NN-MG TrainLL-100%: p25 1.7502 p50 3.9309 p75 6.5607 avg 3.9832 std 2.8042
+NN-MG RMSE-100%: p25 0.4329 p50 0.4952 p75 0.565 avg 0.5008 std 0.0939
+NN-MG ISIN-10%: p25 13.8889 p50 22.2222 p75 30.5556 avg 23.6389 std 11.528
+NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 53.4722 avg 42.5463 std 16.5745
+ALL-NN-MG RMSE-100%: p25 0.4329 p50 0.4952 p75 0.565 avg 0.5008 std 0.0939
+ALL-NN-MG ISIN-10%: p25 13.8889 p50 22.2222 p75 30.5556 avg 23.6389 std 11.528
+ALL-NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 53.4722 avg 42.5463 std 16.5745
+NN-MG LL calculation and prediction, elapsed time: 0:00:02
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/natops
+Working on data/natops/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -8.0737 p50 -0.9109 p75 6.4953 avg -2.6976 std 11.7677
+NN-MG TrainLL-100%: p25 6.0557 p50 11.2257 p75 15.443 avg 10.7375 std 4.7938
+NN-MG RMSE-100%: p25 0.3077 p50 0.3522 p75 0.4203 avg 0.3835 std 0.1181
+NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 26.746 std 13.3491
+NN-MG ISIN-20%: p25 35.7143 p50 47.619 p75 57.1429 avg 46.2434 std 16.5471
+ALL-NN-MG RMSE-100%: p25 0.3077 p50 0.3522 p75 0.4203 avg 0.3835 std 0.1181
+ALL-NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 26.746 std 13.3491
+ALL-NN-MG ISIN-20%: p25 35.7143 p50 47.619 p75 57.1429 avg 46.2434 std 16.5471
+NN-MG LL calculation and prediction, elapsed time: 0:00:01
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/fingermovement
+Working on data/fingermovement/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.3777 p50 -1.9868 p75 0.393 avg -3.2159 std 5.9478
+NN-MG TrainLL-100%: p25 -1.158 p50 1.4175 p75 3.7258 avg 1.0614 std 3.6411
+NN-MG RMSE-100%: p25 0.492 p50 0.5316 p75 0.5929 avg 0.5486 std 0.0829
+NN-MG ISIN-10%: p25 10.7143 p50 15.4762 p75 20.2381 avg 16.3929 std 7.3209
+NN-MG ISIN-20%: p25 22.619 p50 29.7619 p75 39.2857 avg 31.7381 std 12.1559
+ALL-NN-MG RMSE-100%: p25 0.492 p50 0.5316 p75 0.5929 avg 0.5486 std 0.0829
+ALL-NN-MG ISIN-10%: p25 10.7143 p50 15.4762 p75 20.2381 avg 16.3929 std 7.3209
+ALL-NN-MG ISIN-20%: p25 22.619 p50 29.7619 p75 39.2857 avg 31.7381 std 12.1559
+NN-MG LL calculation and prediction, elapsed time: 0:00:03
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/lsst
+Working on data/lsst/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.9047 p50 0.6049 p75 3.9216 avg -2.9415 std 13.325
+NN-MG TrainLL-100%: p25 2.4611 p50 5.029 p75 6.7566 avg 3.36 std 5.693
+NN-MG RMSE-100%: p25 0.2201 p50 0.3164 p75 0.575 avg 0.4716 std 0.4219
+NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.3148 std 12.1063
+NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.9815 std 19.0841
+ALL-NN-MG RMSE-100%: p25 0.2201 p50 0.3164 p75 0.575 avg 0.4716 std 0.4219
+ALL-NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.3148 std 12.1063
+ALL-NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.9815 std 19.0841
+NN-MG LL calculation and prediction, elapsed time: 0:00:03
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/wordrecognition
+Working on data/wordrecognition/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -0.1692 p50 1.5829 p75 3.6062 avg 1.5606 std 2.5595
+NN-MG TrainLL-100%: p25 1.2147 p50 2.8861 p75 4.7204 avg 2.8167 std 2.2493
+NN-MG RMSE-100%: p25 0.4262 p50 0.4939 p75 0.5808 avg 0.506 std 0.1155
+NN-MG ISIN-10%: p25 18.5185 p50 29.6296 p75 37.037 avg 28.7407 std 13.3551
+NN-MG ISIN-20%: p25 37.037 p50 48.1481 p75 59.2593 avg 47.037 std 16.1851
+ALL-NN-MG RMSE-100%: p25 0.4262 p50 0.4939 p75 0.5808 avg 0.506 std 0.1155
+ALL-NN-MG ISIN-10%: p25 18.5185 p50 29.6296 p75 37.037 avg 28.7407 std 13.3551
+ALL-NN-MG ISIN-20%: p25 37.037 p50 48.1481 p75 59.2593 avg 47.037 std 16.1851
+NN-MG LL calculation and prediction, elapsed time: 0:00:02
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/conll2000
+Working on data/conll2000/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -143.1536 p50 -137.8902 p75 -131.934 avg -137.9127 std 9.3671
+NN-MG TrainLL-100%: p25 -137.9047 p50 -133.0385 p75 -128.0327 avg -133.2438 std 7.8944
+NN-MG RMSE-100%: p25 0.8513 p50 0.8941 p75 0.9334 avg 0.8923 std 0.059
+NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9622 std 0.6242
+NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.6667 avg 2.0422 std 0.9732
+ALL-NN-MG RMSE-100%: p25 0.8513 p50 0.8941 p75 0.9334 avg 0.8923 std 0.059
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9622 std 0.6242
+ALL-NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.6667 avg 2.0422 std 0.9732
+NN-MG LL calculation and prediction, elapsed time: 0:00:24
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/arabicdigit
+Working on data/arabicdigit/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -10.094 p50 -9.2179 p75 -8.3107 avg -9.2131 std 1.6289
+NN-MG TrainLL-100%: p25 -7.2152 p50 -5.6143 p75 -4.0589 avg -5.6646 std 2.1556
+NN-MG RMSE-100%: p25 0.6383 p50 0.7003 p75 0.7714 avg 0.7009 std 0.0894
+NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.2821 std 5.2237
+NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.9744 std 7.6051
+ALL-NN-MG RMSE-100%: p25 0.6383 p50 0.7003 p75 0.7714 avg 0.7009 std 0.0894
+ALL-NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.2821 std 5.2237
+ALL-NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.9744 std 7.6051
+NN-MG LL calculation and prediction, elapsed time: 0:00:09
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/heartbeat
+Working on data/heartbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -14.2876 p50 1.1024 p75 19.2035 avg 2.2209 std 23.8159
+NN-MG TrainLL-100%: p25 -1.712 p50 14.0271 p75 27.2247 avg 12.8314 std 21.3739
+NN-MG RMSE-100%: p25 0.3562 p50 0.4296 p75 0.6441 avg 0.5292 std 0.2677
+NN-MG ISIN-10%: p25 5.4645 p50 9.2896 p75 18.5792 avg 12.4041 std 9.3836
+NN-MG ISIN-20%: p25 10.929 p50 20.2186 p75 37.7049 avg 25.262 std 18.0237
+ALL-NN-MG RMSE-100%: p25 0.3562 p50 0.4296 p75 0.6441 avg 0.5292 std 0.2677
+ALL-NN-MG ISIN-10%: p25 5.4645 p50 9.2896 p75 18.5792 avg 12.4041 std 9.3836
+ALL-NN-MG ISIN-20%: p25 10.929 p50 20.2186 p75 37.7049 avg 25.262 std 18.0237
+NN-MG LL calculation and prediction, elapsed time: 0:00:10
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/facedetect
+Working on data/facedetect/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+RNN-MG RMSE-100%: p25 0.2321 p50 0.2803 p75 0.3429 avg 0.3013 std 0.0967
+RNN-MG ISIN-10%: p25 28.5714 p50 42.8571 p75 50.0 avg 40.8466 std 16.0444
+RNN-MG ISIN-20%: p25 50.0 p50 61.9048 p75 72.0238 avg 60.6481 std 16.7071
+ALL-RNN-MG RMSE-100%: p25 0.2321 p50 0.2803 p75 0.3429 avg 0.3013 std 0.0967
+ALL-RNN-MG ISIN-10%: p25 28.5714 p50 42.8571 p75 50.0 avg 40.8466 std 16.0444
+ALL-RNN-MG ISIN-20%: p25 50.0 p50 61.9048 p75 72.0238 avg 60.6481 std 16.7071
+RNN-MG LL calculation and prediction, elapsed time: 0:02:16
+RNN-IndMGx3 LL-100%: p25 2.6021 p50 7.6369 p75 14.2079 avg 7.2336 std 7.3819
+RNN-IndMGx3 TrainLL-100%: p25 6.7588 p50 10.8115 p75 15.8173 avg 11.0872 std 4.9293
+RNN-IndMGx3 RMSE-100%: p25 0.231 p50 0.2684 p75 0.3323 avg 0.2958 std 0.0998
+RNN-IndMGx3 ISIN-10%: p25 28.5714 p50 42.8571 p75 52.9762 avg 42.0635 std 17.0015
+RNN-IndMGx3 ISIN-20%: p25 50.0 p50 64.2857 p75 76.1905 avg 62.1429 std 17.7237
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.231 p50 0.2684 p75 0.3323 avg 0.2958 std 0.0998
+ALL-RNN-IndMGx3 ISIN-10%: p25 28.5714 p50 42.8571 p75 52.9762 avg 42.0635 std 17.0015
+ALL-RNN-IndMGx3 ISIN-20%: p25 50.0 p50 64.2857 p75 76.1905 avg 62.1429 std 17.7237
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:36
+Results saved.
+Making directory ./results/raw/trajectory/fingermovement
+Working on data/fingermovement/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.3777 p50 -1.9868 p75 0.393 avg -3.2159 std 5.9478
+NN-MG TrainLL-100%: p25 -1.158 p50 1.4175 p75 3.7258 avg 1.0614 std 3.6411
+NN-MG RMSE-100%: p25 0.4978 p50 0.5332 p75 0.6011 avg 0.5564 std 0.0831
+NN-MG ISIN-10%: p25 10.7143 p50 13.0952 p75 17.8571 avg 15.0595 std 7.7744
+NN-MG ISIN-20%: p25 21.4286 p50 27.381 p75 36.9048 avg 30.0595 std 11.5229
+ALL-NN-MG RMSE-100%: p25 0.4978 p50 0.5332 p75 0.6011 avg 0.5564 std 0.0831
+ALL-NN-MG ISIN-10%: p25 10.7143 p50 13.0952 p75 17.8571 avg 15.0595 std 7.7744
+ALL-NN-MG ISIN-20%: p25 21.4286 p50 27.381 p75 36.9048 avg 30.0595 std 11.5229
+NN-MG LL calculation and prediction, elapsed time: 0:01:28
+RNN-STD RMSE-100%: p25 0.3585 p50 0.3789 p75 0.408 avg 0.3883 std 0.0429
+RNN-STD ISIN-10%: p25 22.619 p50 29.7619 p75 40.4762 avg 32.631 std 11.931
+RNN-STD ISIN-20%: p25 42.8571 p50 52.9762 p75 64.2857 avg 54.2262 std 14.4704
+ALL-RNN-STD RMSE-100%: p25 0.3585 p50 0.3789 p75 0.408 avg 0.3883 std 0.0429
+ALL-RNN-STD ISIN-10%: p25 22.619 p50 29.7619 p75 40.4762 avg 32.631 std 11.931
+ALL-RNN-STD ISIN-20%: p25 42.8571 p50 52.9762 p75 64.2857 avg 54.2262 std 14.4704
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 10.213 p50 13.5474 p75 15.4446 avg 11.5906 std 10.8658
+RNN-MG TrainLL-100%: p25 14.5698 p50 17.068 p75 19.0626 avg 16.5177 std 3.8874
+RNN-MG RMSE-100%: p25 0.3509 p50 0.371 p75 0.3991 avg 0.3804 std 0.0522
+RNN-MG ISIN-10%: p25 27.381 p50 33.3333 p75 40.7738 avg 35.1071 std 10.4904
+RNN-MG ISIN-20%: p25 48.8095 p50 54.7619 p75 66.6667 avg 57.1071 std 12.278
+ALL-RNN-MG RMSE-100%: p25 0.3509 p50 0.371 p75 0.3991 avg 0.3804 std 0.0522
+ALL-RNN-MG ISIN-10%: p25 27.381 p50 33.3333 p75 40.7738 avg 35.1071 std 10.4904
+ALL-RNN-MG ISIN-20%: p25 48.8095 p50 54.7619 p75 66.6667 avg 57.1071 std 12.278
+RNN-MG LL calculation and prediction, elapsed time: 0:01:27
+RNN-IndMGx3 LL-100%: p25 5.7491 p50 9.1138 p75 10.7278 avg 7.211 std 8.4051
+RNN-IndMGx3 TrainLL-100%: p25 7.9501 p50 10.0789 p75 11.9843 avg 9.6121 std 3.9442
+RNN-IndMGx3 RMSE-100%: p25 0.5032 p50 0.5182 p75 0.5376 avg 0.5232 std 0.038
+RNN-IndMGx3 ISIN-10%: p25 22.619 p50 27.9762 p75 36.9048 avg 30.3571 std 10.5778
+RNN-IndMGx3 ISIN-20%: p25 39.2857 p50 47.619 p75 58.3333 avg 48.9048 std 12.2667
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.5032 p50 0.5182 p75 0.5376 avg 0.5232 std 0.038
+ALL-RNN-IndMGx3 ISIN-10%: p25 22.619 p50 27.9762 p75 36.9048 avg 30.3571 std 10.5778
+ALL-RNN-IndMGx3 ISIN-20%: p25 39.2857 p50 47.619 p75 58.3333 avg 48.9048 std 12.2667
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:01:36
+Results saved.
+Making directory ./results/raw/trajectory/lsst
+Working on data/lsst/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.9047 p50 0.6049 p75 3.9216 avg -2.9415 std 13.325
+NN-MG TrainLL-100%: p25 2.4611 p50 5.029 p75 6.7566 avg 3.36 std 5.693
+NN-MG RMSE-100%: p25 0.2168 p50 0.3191 p75 0.5975 avg 0.4812 std 0.4263
+NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.4444 std 12.4925
+NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.3519 std 19.5078
+ALL-NN-MG RMSE-100%: p25 0.2168 p50 0.3191 p75 0.5975 avg 0.4812 std 0.4263
+ALL-NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.4444 std 12.4925
+ALL-NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.3519 std 19.5078
+NN-MG LL calculation and prediction, elapsed time: 0:00:29
+RNN-STD RMSE-100%: p25 0.3613 p50 0.4227 p75 0.6011 avg 0.5758 std 0.3742
+RNN-STD ISIN-10%: p25 0.0 p50 5.5556 p75 5.5556 avg 4.7778 std 5.8101
+RNN-STD ISIN-20%: p25 5.5556 p50 5.5556 p75 11.1111 avg 9.2963 std 8.5104
+ALL-RNN-STD RMSE-100%: p25 0.3613 p50 0.4227 p75 0.6011 avg 0.5758 std 0.3742
+ALL-RNN-STD ISIN-10%: p25 0.0 p50 5.5556 p75 5.5556 avg 4.7778 std 5.8101
+ALL-RNN-STD ISIN-20%: p25 5.5556 p50 5.5556 p75 11.1111 avg 9.2963 std 8.5104
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 -2.9771 p50 2.8548 p75 5.3178 avg -0.4 std 8.8706
+RNN-MG TrainLL-100%: p25 4.506 p50 5.9726 p75 7.1561 avg 4.6874 std 4.6097
+RNN-MG RMSE-100%: p25 0.2147 p50 0.2894 p75 0.537 avg 0.4679 std 0.454
+RNN-MG ISIN-10%: p25 5.5556 p50 11.1111 p75 16.6667 avg 12.0926 std 11.8097
+RNN-MG ISIN-20%: p25 9.7222 p50 16.6667 p75 33.3333 avg 22.0556 std 17.9297
+ALL-RNN-MG RMSE-100%: p25 0.2147 p50 0.2894 p75 0.537 avg 0.4679 std 0.454
+ALL-RNN-MG ISIN-10%: p25 5.5556 p50 11.1111 p75 16.6667 avg 12.0926 std 11.8097
+ALL-RNN-MG ISIN-20%: p25 9.7222 p50 16.6667 p75 33.3333 avg 22.0556 std 17.9297
+RNN-MG LL calculation and prediction, elapsed time: 0:02:35
+RNN-IndMGx3 LL-100%: p25 -1.0794 p50 3.5581 p75 5.7483 avg 1.3694 std 6.232
+RNN-IndMGx3 TrainLL-100%: p25 5.1434 p50 6.3992 p75 7.3689 avg 5.2866 std 3.9128
+RNN-IndMGx3 RMSE-100%: p25 0.2125 p50 0.2869 p75 0.5263 avg 0.4589 std 0.4534
+RNN-IndMGx3 ISIN-10%: p25 5.5556 p50 11.1111 p75 22.2222 avg 13.3889 std 10.8704
+RNN-IndMGx3 ISIN-20%: p25 11.1111 p50 22.2222 p75 33.3333 avg 23.7222 std 16.1051
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.2125 p50 0.2869 p75 0.5263 avg 0.4589 std 0.4534
+ALL-RNN-IndMGx3 ISIN-10%: p25 5.5556 p50 11.1111 p75 22.2222 avg 13.3889 std 10.8704
+ALL-RNN-IndMGx3 ISIN-20%: p25 11.1111 p50 22.2222 p75 33.3333 avg 23.7222 std 16.1051
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:42
+Results saved.
+Making directory ./results/raw/trajectory/wordrecognition
+Working on data/wordrecognition/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -0.1692 p50 1.5829 p75 3.6062 avg 1.5606 std 2.5595
+NN-MG TrainLL-100%: p25 1.2147 p50 2.8861 p75 4.7204 avg 2.8167 std 2.2493
+NN-MG RMSE-100%: p25 0.4438 p50 0.5189 p75 0.583 avg 0.5234 std 0.1109
+NN-MG ISIN-10%: p25 18.5185 p50 25.9259 p75 33.3333 avg 26.5432 std 12.9111
+NN-MG ISIN-20%: p25 33.3333 p50 44.4444 p75 55.5556 avg 44.4938 std 15.9014
+ALL-NN-MG RMSE-100%: p25 0.4438 p50 0.5189 p75 0.583 avg 0.5234 std 0.1109
+ALL-NN-MG ISIN-10%: p25 18.5185 p50 25.9259 p75 33.3333 avg 26.5432 std 12.9111
+ALL-NN-MG ISIN-20%: p25 33.3333 p50 44.4444 p75 55.5556 avg 44.4938 std 15.9014
+NN-MG LL calculation and prediction, elapsed time: 0:00:42
+RNN-STD RMSE-100%: p25 0.3826 p50 0.4507 p75 0.5304 avg 0.4617 std 0.1119
+RNN-STD ISIN-10%: p25 22.2222 p50 33.3333 p75 44.4444 avg 33.321 std 14.2115
+RNN-STD ISIN-20%: p25 40.7407 p50 51.8519 p75 62.963 avg 53.0247 std 15.7235
+ALL-RNN-STD RMSE-100%: p25 0.3826 p50 0.4507 p75 0.5304 avg 0.4617 std 0.1119
+ALL-RNN-STD ISIN-10%: p25 22.2222 p50 33.3333 p75 44.4444 avg 33.321 std 14.2115
+ALL-RNN-STD ISIN-20%: p25 40.7407 p50 51.8519 p75 62.963 avg 53.0247 std 15.7235
+RNN-STD LL calculation and prediction, elapsed time: 0:00:06
+RNN-MG LL-100%: p25 0.934 p50 2.7273 p75 4.637 avg 2.6556 std 2.3501
+RNN-MG TrainLL-100%: p25 1.3443 p50 3.0329 p75 4.8988 avg 2.9913 std 2.3464
+NN-MG LL-100%: p25 -178.6212 p50 -171.8419 p75 -165.5557 avg -174.5454 std 15.2327
+NN-MG TrainLL-100%: p25 -172.2159 p50 -158.8018 p75 -143.2978 avg -155.1255 std 22.4607
+NN-MG RMSE-100%: p25 0.7001 p50 0.7287 p75 0.7593 avg 0.7312 std 0.0463
+NN-MG ISIN-10%: p25 1.794 p50 2.5463 p75 3.2407 avg 2.5648 std 1.0869
+NN-MG ISIN-20%: p25 3.7037 p50 4.8611 p75 6.4815 avg 5.26 std 2.0725
+ALL-NN-MG RMSE-100%: p25 0.7001 p50 0.7287 p75 0.7593 avg 0.7312 std 0.0463
+ALL-NN-MG ISIN-10%: p25 1.794 p50 2.5463 p75 3.2407 avg 2.5648 std 1.0869
+ALL-NN-MG ISIN-20%: p25 3.7037 p50 4.8611 p75 6.4815 avg 5.26 std 2.0725
+NN-MG LL calculation and prediction, elapsed time: 0:19:48
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/brown_100
+Working on data/brown_100/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -141.9453 p50 -136.5604 p75 -131.2739 avg -137.1666 std 8.1828
+NN-MG TrainLL-100%: p25 -138.4734 p50 -133.5633 p75 -128.8931 avg -133.9121 std 7.214
+NN-MG RMSE-100%: p25 0.8542 p50 0.8951 p75 0.9327 avg 0.8945 std 0.0628
+NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 1.05 std 0.6007
+NN-MG ISIN-20%: p25 1.6667 p50 2.0 p75 2.6667 avg 2.1489 std 0.9274
+ALL-NN-MG RMSE-100%: p25 0.8542 p50 0.8951 p75 0.9327 avg 0.8945 std 0.0628
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 1.05 std 0.6007
+ALL-NN-MG ISIN-20%: p25 1.6667 p50 2.0 p75 2.6667 avg 2.1489 std 0.9274
+NN-MG LL calculation and prediction, elapsed time: 0:01:18
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Making directory ./results/raw/trajectory0/wingbeat
+Working on data/wingbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -268.5754 p50 -155.5441 p75 -109.5633 avg -235.3982 std 243.0029
+NN-MG TrainLL-100%: p25 -194.5441 p50 -141.5564 p75 -99.7502 avg -166.0989 std 131.4508
+NN-MG RMSE-100%: p25 0.3193 p50 0.4131 p75 0.513 avg 0.4397 std 0.1942
+NN-MG ISIN-10%: p25 1.5075 p50 2.5126 p75 3.6851 avg 2.9894 std 2.3544
+NN-MG ISIN-20%: p25 3.1826 p50 5.0251 p75 6.8677 avg 5.7828 std 4.1417
+ALL-NN-MG RMSE-100%: p25 0.3193 p50 0.4131 p75 0.513 avg 0.4397 std 0.1942
+ALL-NN-MG ISIN-10%: p25 1.5075 p50 2.5126 p75 3.6851 avg 2.9894 std 2.3544
+ALL-NN-MG ISIN-20%: p25 3.1826 p50 5.0251 p75 6.8677 avg 5.7828 std 4.1417
+NN-MG LL calculation and prediction, elapsed time: 0:01:36
+Traceback (most recent call last):
+  File "main_trajectory0.py", line 295, in <module>
+    pred.append( m.fill_sequence(X, miss, n_iter = 0) )
+TypeError: fill_sequence() got an unexpected keyword argument 'n_iter'
+Done.
+RNN-MG RMSE-100%: p25 0.3696 p50 0.4286 p75 0.5197 avg 0.4461 std 0.1117
+RNN-MG ISIN-10%: p25 29.6296 p50 37.037 p75 44.4444 avg 37.5062 std 14.1957
+RNN-MG ISIN-20%: p25 44.4444 p50 55.5556 p75 66.6667 avg 56.358 std 14.9911
+ALL-RNN-MG RMSE-100%: p25 0.3696 p50 0.4286 p75 0.5197 avg 0.4461 std 0.1117
+ALL-RNN-MG ISIN-10%: p25 29.6296 p50 37.037 p75 44.4444 avg 37.5062 std 14.1957
+ALL-RNN-MG ISIN-20%: p25 44.4444 p50 55.5556 p75 66.6667 avg 56.358 std 14.9911
+RNN-MG LL calculation and prediction, elapsed time: 0:09:45
+RNN-IndMGx3 LL-100%: p25 2.3002 p50 4.0131 p75 5.1877 avg 3.6882 std 1.9122
+RNN-IndMGx3 TrainLL-100%: p25 2.738 p50 4.1639 p75 5.4084 avg 4.0379 std 1.8652
+RNN-IndMGx3 RMSE-100%: p25 0.3621 p50 0.4354 p75 0.5296 avg 0.4509 std 0.1262
+RNN-IndMGx3 ISIN-10%: p25 25.9259 p50 40.7407 p75 51.8519 avg 40.5432 std 17.2095
+RNN-IndMGx3 ISIN-20%: p25 44.4444 p50 59.2593 p75 70.3704 avg 57.5679 std 16.7179
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.3621 p50 0.4354 p75 0.5296 avg 0.4509 std 0.1262
+ALL-RNN-IndMGx3 ISIN-10%: p25 25.9259 p50 40.7407 p75 51.8519 avg 40.5432 std 17.2095
+ALL-RNN-IndMGx3 ISIN-20%: p25 44.4444 p50 59.2593 p75 70.3704 avg 57.5679 std 16.7179
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:10:16
+Results saved.
+Making directory ./results/raw/trajectory/conll2000
+Working on data/conll2000/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -143.1536 p50 -137.8902 p75 -131.934 avg -137.9127 std 9.3671
+NN-MG TrainLL-100%: p25 -137.9047 p50 -133.0385 p75 -128.0327 avg -133.2438 std 7.8944
+NN-MG RMSE-100%: p25 0.8558 p50 0.8954 p75 0.9331 avg 0.8946 std 0.0565
+NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9767 std 0.6187
+NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.3333 avg 2.0322 std 1.0407
+ALL-NN-MG RMSE-100%: p25 0.8558 p50 0.8954 p75 0.9331 avg 0.8946 std 0.0565
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9767 std 0.6187
+ALL-NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.3333 avg 2.0322 std 1.0407
+NN-MG LL calculation and prediction, elapsed time: 0:02:34
+RNN-STD RMSE-100%: p25 0.8541 p50 0.8907 p75 0.9293 avg 0.891 std 0.0567
+RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1922 std 0.7585
+RNN-STD ISIN-20%: p25 1.6667 p50 2.3333 p75 3.0 avg 2.4533 std 1.2306
+ALL-RNN-STD RMSE-100%: p25 0.8541 p50 0.8907 p75 0.9293 avg 0.891 std 0.0567
+ALL-RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1922 std 0.7585
+ALL-RNN-STD ISIN-20%: p25 1.6667 p50 2.3333 p75 3.0 avg 2.4533 std 1.2306
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 -131.348 p50 -116.7352 p75 -100.7998 avg -115.5426 std 22.3598
+RNN-IndMGx3 TrainLL-100%: p25 -124.2831 p50 -109.8354 p75 -94.6254 avg -108.7939 std 22.8259
+RNN-IndMGx3 RMSE-100%: p25 0.9373 p50 0.9835 p75 1.0256 avg 0.9714 std 0.0795
+RNN-IndMGx3 ISIN-10%: p25 2.3333 p50 3.0 p75 4.0833 avg 7.7767 std 11.4692
+RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.3333 p75 7.6667 avg 10.7744 std 11.2177
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.9373 p50 0.9835 p75 1.0256 avg 0.9714 std 0.0795
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.3333 p50 3.0 p75 4.0833 avg 7.7767 std 11.4692
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.3333 p75 7.6667 avg 10.7744 std 11.2177
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:15
+RNN-MG LL-100%: p25 -144.5585 p50 -138.8412 p75 -133.3367 avg -138.8865 std 8.841
+RNN-MG TrainLL-100%: p25 -142.4955 p50 -137.1084 p75 -131.4841 avg -137.0565 std 8.7931
+RNN-MG RMSE-100%: p25 0.8727 p50 0.9117 p75 0.9523 avg 0.911 std 0.0588
+RNN-MG ISIN-10%: p25 1.3333 p50 1.6667 p75 2.3333 avg 1.75 std 0.8206
+RNN-MG ISIN-20%: p25 2.6667 p50 3.6667 p75 4.3333 avg 3.63 std 1.2292
+ALL-RNN-MG RMSE-100%: p25 0.8727 p50 0.9117 p75 0.9523 avg 0.911 std 0.0588
+ALL-RNN-MG ISIN-10%: p25 1.3333 p50 1.6667 p75 2.3333 avg 1.75 std 0.8206
+ALL-RNN-MG ISIN-20%: p25 2.6667 p50 3.6667 p75 4.3333 avg 3.63 std 1.2292
+RNN-MG LL calculation and prediction, elapsed time: 0:03:35
+Results saved.
+Making directory ./results/raw/trajectory/arabicdigit
+Working on data/arabicdigit/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -10.094 p50 -9.2179 p75 -8.3107 avg -9.2131 std 1.6289
+NN-MG TrainLL-100%: p25 -7.2152 p50 -5.6143 p75 -4.0589 avg -5.6646 std 2.1556
+NN-MG RMSE-100%: p25 0.6432 p50 0.7192 p75 0.798 avg 0.7203 std 0.0954
+NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.1282 std 5.3751
+NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.1966 std 7.9147
+ALL-NN-MG RMSE-100%: p25 0.6432 p50 0.7192 p75 0.798 avg 0.7203 std 0.0954
+ALL-NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.1282 std 5.3751
+ALL-NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.1966 std 7.9147
+NN-MG LL calculation and prediction, elapsed time: 0:00:44
+RNN-STD RMSE-100%: p25 0.6082 p50 0.6669 p75 0.7297 avg 0.6749 std 0.0943
+RNN-STD ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.9402 std 5.4933
+RNN-STD ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 17.0427 std 8.3986
+ALL-RNN-STD RMSE-100%: p25 0.6082 p50 0.6669 p75 0.7297 avg 0.6749 std 0.0943
+ALL-RNN-STD ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.9402 std 5.4933
+ALL-RNN-STD ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 17.0427 std 8.3986
+RNN-STD LL calculation and prediction, elapsed time: 0:00:02
+RNN-MG LL-100%: p25 -9.1694 p50 -8.1189 p75 -7.2217 avg -8.1398 std 1.4307
+RNN-MG TrainLL-100%: p25 -7.2665 p50 -5.7143 p75 -4.1884 avg -5.7189 std 2.1965
+RNN-MG RMSE-100%: p25 0.624 p50 0.6937 p75 0.7727 avg 0.6991 std 0.101
+RNN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.4444 std 5.5315
+RNN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 16.8034 std 8.5506
+ALL-RNN-MG RMSE-100%: p25 0.624 p50 0.6937 p75 0.7727 avg 0.6991 std 0.101
+ALL-RNN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.4444 std 5.5315
+ALL-RNN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 16.8034 std 8.5506
+RNN-MG LL calculation and prediction, elapsed time: 0:02:57
+RNN-IndMGx3 LL-100%: p25 -9.0362 p50 -8.0682 p75 -7.3732 avg -8.1424 std 1.2188
+RNN-IndMGx3 TrainLL-100%: p25 -7.3409 p50 -5.9156 p75 -4.4706 avg -5.9105 std 2.0472
+RNN-IndMGx3 RMSE-100%: p25 0.6112 p50 0.6654 p75 0.7377 avg 0.6763 std 0.0987
+RNN-IndMGx3 ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 9.094 std 5.7799
+RNN-IndMGx3 ISIN-20%: p25 12.8205 p50 17.9487 p75 23.0769 avg 17.9744 std 8.4667
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.6112 p50 0.6654 p75 0.7377 avg 0.6763 std 0.0987
+ALL-RNN-IndMGx3 ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 9.094 std 5.7799
+ALL-RNN-IndMGx3 ISIN-20%: p25 12.8205 p50 17.9487 p75 23.0769 avg 17.9744 std 8.4667
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:12
+Results saved.
+Making directory ./results/raw/trajectory/heartbeat
+Working on data/heartbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -14.2876 p50 1.1024 p75 19.2035 avg 2.2209 std 23.8159
+NN-MG TrainLL-100%: p25 -1.712 p50 14.0271 p75 27.2247 avg 12.8314 std 21.3739
+NN-MG RMSE-100%: p25 0.3601 p50 0.4413 p75 0.6278 avg 0.5326 std 0.2683
+NN-MG ISIN-10%: p25 6.5574 p50 13.1148 p75 23.4973 avg 15.9784 std 11.5907
+NN-MG ISIN-20%: p25 12.8415 p50 27.8689 p75 43.9891 avg 29.8098 std 19.9418
+ALL-NN-MG RMSE-100%: p25 0.3601 p50 0.4413 p75 0.6278 avg 0.5326 std 0.2683
+ALL-NN-MG ISIN-10%: p25 6.5574 p50 13.1148 p75 23.4973 avg 15.9784 std 11.5907
+ALL-NN-MG ISIN-20%: p25 12.8415 p50 27.8689 p75 43.9891 avg 29.8098 std 19.9418
+NN-MG LL calculation and prediction, elapsed time: 0:03:57
+RNN-STD RMSE-100%: p25 0.3512 p50 0.4237 p75 0.5725 avg 0.4946 std 0.2316
+RNN-STD ISIN-10%: p25 4.918 p50 9.8361 p75 19.6721 avg 13.282 std 10.1963
+RNN-STD ISIN-20%: p25 12.0219 p50 20.2186 p75 38.2514 avg 26.343 std 18.7605
+ALL-RNN-STD RMSE-100%: p25 0.3512 p50 0.4237 p75 0.5725 avg 0.4946 std 0.2316
+ALL-RNN-STD ISIN-10%: p25 4.918 p50 9.8361 p75 19.6721 avg 13.282 std 10.1963
+ALL-RNN-STD ISIN-20%: p25 12.0219 p50 20.2186 p75 38.2514 avg 26.343 std 18.7605
+RNN-STD LL calculation and prediction, elapsed time: 0:00:30
+RNN-MG LL-100%: p25 -15.1527 p50 1.1088 p75 15.8301 avg 0.2607 std 21.3146
+RNN-MG TrainLL-100%: p25 -13.2009 p50 1.2571 p75 15.6634 avg 0.6248 std 31.1499
+RNN-MG RMSE-100%: p25 0.4086 p50 0.4869 p75 0.6196 avg 0.5511 std 0.2356
+RNN-MG ISIN-10%: p25 6.5574 p50 11.4754 p75 19.6721 avg 14.0076 std 10.1168
+RNN-MG ISIN-20%: p25 12.5683 p50 21.3115 p75 36.8852 avg 25.6711 std 16.7296
+ALL-RNN-MG RMSE-100%: p25 0.4086 p50 0.4869 p75 0.6196 avg 0.5511 std 0.2356
+ALL-RNN-MG ISIN-10%: p25 6.5574 p50 11.4754 p75 19.6721 avg 14.0076 std 10.1168
+ALL-RNN-MG ISIN-20%: p25 12.5683 p50 21.3115 p75 36.8852 avg 25.6711 std 16.7296
+RNN-MG LL calculation and prediction, elapsed time: 0:53:58
+RNN-IndMGx3 LL-100%: p25 -3.9843 p50 11.786 p75 26.5941 avg 11.4525 std 21.4949
+RNN-IndMGx3 TrainLL-100%: p25 -1.089 p50 14.6964 p75 28.5466 avg 13.5119 std 25.9028
+RNN-IndMGx3 RMSE-100%: p25 0.3559 p50 0.4428 p75 0.596 avg 0.5192 std 0.2673
+RNN-IndMGx3 ISIN-10%: p25 9.2896 p50 15.847 p75 26.2295 avg 18.409 std 12.2796
+RNN-IndMGx3 ISIN-20%: p25 18.0328 p50 30.6011 p75 45.9016 avg 33.6618 std 20.354
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.3559 p50 0.4428 p75 0.596 avg 0.5192 std 0.2673
+ALL-RNN-IndMGx3 ISIN-10%: p25 9.2896 p50 15.847 p75 26.2295 avg 18.409 std 12.2796
+ALL-RNN-IndMGx3 ISIN-20%: p25 18.0328 p50 30.6011 p75 45.9016 avg 33.6618 std 20.354
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:19:36
+Results saved.
+Making directory ./results/raw/trajectory/facedetect
+Working on data/facedetect/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -178.6212 p50 -171.8419 p75 -165.5557 avg -174.5454 std 15.2327
+NN-MG TrainLL-100%: p25 -172.2159 p50 -158.8018 p75 -143.2978 avg -155.1255 std 22.4607
+NN-MG RMSE-100%: p25 0.7099 p50 0.7352 p75 0.7666 avg 0.739 std 0.0443
+NN-MG ISIN-10%: p25 2.0833 p50 2.7778 p75 3.4722 avg 2.8688 std 1.0789
+NN-MG ISIN-20%: p25 4.6296 p50 5.5556 p75 6.9444 avg 5.8866 std 1.7936
+ALL-NN-MG RMSE-100%: p25 0.7099 p50 0.7352 p75 0.7666 avg 0.739 std 0.0443
+ALL-NN-MG ISIN-10%: p25 2.0833 p50 2.7778 p75 3.4722 avg 2.8688 std 1.0789
+ALL-NN-MG ISIN-20%: p25 4.6296 p50 5.5556 p75 6.9444 avg 5.8866 std 1.7936
+NN-MG LL calculation and prediction, elapsed time: 2:27:15
+RNN-STD RMSE-100%: p25 0.6867 p50 0.7112 p75 0.7388 avg 0.7142 std 0.0403
+RNN-STD ISIN-10%: p25 3.0093 p50 3.9352 p75 4.8611 avg 4.0617 std 1.2846
+RNN-STD ISIN-20%: p25 6.6551 p50 7.8704 p75 9.2593 avg 8.1142 std 2.1152
+ALL-RNN-STD RMSE-100%: p25 0.6867 p50 0.7112 p75 0.7388 avg 0.7142 std 0.0403
+ALL-RNN-STD ISIN-10%: p25 3.0093 p50 3.9352 p75 4.8611 avg 4.0617 std 1.2846
+ALL-RNN-STD ISIN-20%: p25 6.6551 p50 7.8704 p75 9.2593 avg 8.1142 std 2.1152
+RNN-STD LL calculation and prediction, elapsed time: 0:00:14
+RNN-MG LL-100%: p25 -167.8812 p50 -158.4801 p75 -146.6911 avg -158.5556 std 15.4076
+RNN-MG TrainLL-100%: p25 -154.5588 p50 -140.613 p75 -123.183 avg -137.2528 std 23.4113
+RNN-MG RMSE-100%: p25 0.6918 p50 0.7155 p75 0.7469 avg 0.7187 std 0.0399
+RNN-MG ISIN-10%: p25 2.7778 p50 3.4722 p75 4.3981 avg 3.6096 std 1.1475
+RNN-MG ISIN-20%: p25 6.0185 p50 7.4074 p75 8.7963 avg 7.4221 std 1.9983
+ALL-RNN-MG RMSE-100%: p25 0.6918 p50 0.7155 p75 0.7469 avg 0.7187 std 0.0399
+ALL-RNN-MG ISIN-10%: p25 2.7778 p50 3.4722 p75 4.3981 avg 3.6096 std 1.1475
+ALL-RNN-MG ISIN-20%: p25 6.0185 p50 7.4074 p75 8.7963 avg 7.4221 std 1.9983
+RNN-MG LL calculation and prediction, elapsed time: 0:35:15
+RNN-IndMGx3 LL-100%: p25 -163.0336 p50 -155.2265 p75 -144.2291 avg -155.2994 std 14.7397
+RNN-IndMGx3 TrainLL-100%: p25 -150.7594 p50 -137.1741 p75 -119.4645 avg -133.6312 std 23.405
+RNN-IndMGx3 RMSE-100%: p25 0.7053 p50 0.7329 p75 0.7586 avg 0.7349 std 0.0423
+RNN-IndMGx3 ISIN-10%: p25 2.5463 p50 3.4722 p75 4.1667 avg 3.5177 std 1.1744
+RNN-IndMGx3 ISIN-20%: p25 5.5556 p50 6.713 p75 8.3333 avg 7.0586 std 1.9544
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.7053 p50 0.7329 p75 0.7586 avg 0.7349 std 0.0423
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.5463 p50 3.4722 p75 4.1667 avg 3.5177 std 1.1744
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.5556 p50 6.713 p75 8.3333 avg 7.0586 std 1.9544
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:30:01
+Results saved.
+Making directory ./results/raw/trajectory/brown_100
+Working on data/brown_100/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -141.9453 p50 -136.5604 p75 -131.2739 avg -137.1666 std 8.1828
+NN-MG TrainLL-100%: p25 -138.4734 p50 -133.5633 p75 -128.8931 avg -133.9121 std 7.214
+NN-MG RMSE-100%: p25 0.8616 p50 0.9029 p75 0.943 avg 0.9033 std 0.0631
+NN-MG ISIN-10%: p25 0.6667 p50 1.3333 p75 1.6667 avg 1.3422 std 0.7532
+NN-MG ISIN-20%: p25 2.0 p50 2.6667 p75 3.6667 avg 2.8356 std 1.1332
+ALL-NN-MG RMSE-100%: p25 0.8616 p50 0.9029 p75 0.943 avg 0.9033 std 0.0631
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.3333 p75 1.6667 avg 1.3422 std 0.7532
+ALL-NN-MG ISIN-20%: p25 2.0 p50 2.6667 p75 3.6667 avg 2.8356 std 1.1332
+NN-MG LL calculation and prediction, elapsed time: 0:05:59
+RNN-STD RMSE-100%: p25 0.8439 p50 0.8893 p75 0.9261 avg 0.8885 std 0.0655
+RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1567 std 0.9578
+RNN-STD ISIN-20%: p25 1.3333 p50 2.0 p75 2.75 avg 2.3867 std 1.8675
+ALL-RNN-STD RMSE-100%: p25 0.8439 p50 0.8893 p75 0.9261 avg 0.8885 std 0.0655
+ALL-RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1567 std 0.9578
+ALL-RNN-STD ISIN-20%: p25 1.3333 p50 2.0 p75 2.75 avg 2.3867 std 1.8675
+RNN-STD LL calculation and prediction, elapsed time: 0:00:10
+RNN-MG LL-100%: p25 -141.3777 p50 -135.761 p75 -131.5191 avg -136.5463 std 7.2883
+RNN-MG TrainLL-100%: p25 -140.2882 p50 -135.319 p75 -130.555 avg -135.5445 std 7.4696
+RNN-MG RMSE-100%: p25 0.8704 p50 0.9128 p75 0.9484 avg 0.9117 std 0.0594
+RNN-MG ISIN-10%: p25 1.3333 p50 2.0 p75 2.4167 avg 2.0311 std 0.8939
+RNN-MG ISIN-20%: p25 3.3333 p50 4.0 p75 4.6667 avg 4.08 std 1.2778
+ALL-RNN-MG RMSE-100%: p25 0.8704 p50 0.9128 p75 0.9484 avg 0.9117 std 0.0594
+ALL-RNN-MG ISIN-10%: p25 1.3333 p50 2.0 p75 2.4167 avg 2.0311 std 0.8939
+ALL-RNN-MG ISIN-20%: p25 3.3333 p50 4.0 p75 4.6667 avg 4.08 std 1.2778
+RNN-MG LL calculation and prediction, elapsed time: 0:07:07
+RNN-IndMGx3 LL-100%: p25 -117.6273 p50 -104.358 p75 -91.8592 avg -103.0166 std 20.7735
+RNN-IndMGx3 TrainLL-100%: p25 -113.2835 p50 -99.6769 p75 -84.6699 avg -98.5273 std 21.2973
+RNN-IndMGx3 RMSE-100%: p25 0.9107 p50 0.9871 p75 1.028 avg 0.9638 std 0.1001
+RNN-IndMGx3 ISIN-10%: p25 2.6667 p50 3.6667 p75 14.9167 avg 11.3089 std 14.7331
+RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.6667 p75 23.5 avg 14.1622 std 14.4833
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.9107 p50 0.9871 p75 1.028 avg 0.9638 std 0.1001
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.6667 p50 3.6667 p75 14.9167 avg 11.3089 std 14.7331
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.6667 p75 23.5 avg 14.1622 std 14.4833
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:31
+Results saved.
+Making directory ./results/raw/trajectory/wingbeat
+Working on data/wingbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -268.5754 p50 -155.5441 p75 -109.5633 avg -235.3982 std 243.0029
+NN-MG TrainLL-100%: p25 -194.5441 p50 -141.5564 p75 -99.7502 avg -166.0989 std 131.4508
+NN-MG RMSE-100%: p25 0.3905 p50 0.4642 p75 0.5489 avg 0.4972 std 0.1634
+NN-MG ISIN-10%: p25 1.8425 p50 2.5126 p75 3.5595 avg 2.8185 std 1.3762
+NN-MG ISIN-20%: p25 3.8107 p50 4.8576 p75 7.2027 avg 5.5667 std 2.5763
+ALL-NN-MG RMSE-100%: p25 0.3905 p50 0.4642 p75 0.5489 avg 0.4972 std 0.1634
+ALL-NN-MG ISIN-10%: p25 1.8425 p50 2.5126 p75 3.5595 avg 2.8185 std 1.3762
+ALL-NN-MG ISIN-20%: p25 3.8107 p50 4.8576 p75 7.2027 avg 5.5667 std 2.5763
+NN-MG LL calculation and prediction, elapsed time: 0:05:20
+RNN-STD RMSE-100%: p25 0.3063 p50 0.381 p75 0.4676 avg 0.4155 std 0.1845
+RNN-STD ISIN-10%: p25 2.0101 p50 3.3501 p75 6.3652 avg 4.7577 std 3.9545
+RNN-STD ISIN-20%: p25 4.1876 p50 6.1977 p75 12.7303 avg 8.8303 std 6.2319
+ALL-RNN-STD RMSE-100%: p25 0.3063 p50 0.381 p75 0.4676 avg 0.4155 std 0.1845
+ALL-RNN-STD ISIN-10%: p25 2.0101 p50 3.3501 p75 6.3652 avg 4.7577 std 3.9545
+ALL-RNN-STD ISIN-20%: p25 4.1876 p50 6.1977 p75 12.7303 avg 8.8303 std 6.2319
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 -237.2209 p50 -139.9786 p75 -78.1763 avg -203.3685 std 227.7074
+RNN-MG TrainLL-100%: p25 -168.0898 p50 -107.1665 p75 -55.8816 avg -127.7334 std 135.0636
+RNN-MG RMSE-100%: p25 0.3652 p50 0.4462 p75 0.5251 avg 0.4703 std 0.1739
+RNN-MG ISIN-10%: p25 2.1776 p50 3.1826 p75 4.3551 avg 3.4132 std 1.9035
+RNN-MG ISIN-20%: p25 4.5226 p50 6.3652 p75 8.3752 avg 6.8476 std 3.4575
+ALL-RNN-MG RMSE-100%: p25 0.3652 p50 0.4462 p75 0.5251 avg 0.4703 std 0.1739
+ALL-RNN-MG ISIN-10%: p25 2.1776 p50 3.1826 p75 4.3551 avg 3.4132 std 1.9035
+ALL-RNN-MG ISIN-20%: p25 4.5226 p50 6.3652 p75 8.3752 avg 6.8476 std 3.4575
+RNN-MG LL calculation and prediction, elapsed time: 0:10:40
+RNN-IndMGx3 LL-100%: p25 -114.1319 p50 -43.3287 p75 16.6305 avg -57.2524 std 114.5825
+RNN-IndMGx3 TrainLL-100%: p25 -91.1235 p50 -28.3553 p75 29.011 avg -33.8422 std 91.2692
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+RNN-IndMGx3 RMSE-100%: p25 0.2973 p50 0.3841 p75 0.4752 avg 0.4103 std 0.1914
+RNN-IndMGx3 ISIN-10%: p25 3.1826 p50 5.6951 p75 7.8727 avg 5.8286 std 3.8295
+RNN-IndMGx3 ISIN-20%: p25 6.4908 p50 11.6415 p75 15.7454 avg 11.4322 std 6.8459
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.2973 p50 0.3841 p75 0.4752 avg 0.4103 std 0.1914
+ALL-RNN-IndMGx3 ISIN-10%: p25 3.1826 p50 5.6951 p75 7.8727 avg 5.8286 std 3.8295
+ALL-RNN-IndMGx3 ISIN-20%: p25 6.4908 p50 11.6415 p75 15.7454 avg 11.4322 std 6.8459
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:57
+Results saved.
+Done.
+Directory already exist!
+Directory already exist!
+Directory already exist!
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+Directory already exist!
+Directory already exist!
+Directory already exist!
+Directory already exist!
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Load from existing study.
+Load from existing study.
+Load from existing study.
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/optuna/distributions.py:683: UserWarning: The distribution is specified by [398, 1000] and step=398, but the range is not divisible by `step`. It will be replaced by [398, 796].
+  warnings.warn(
+Making directory ./results/raw/trajectory/japanvowels
+Working on data/japanvowels/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -3.8517 p50 -0.9749 p75 2.3663 avg -1.1016 std 4.5745
+NN-MG TrainLL-100%: p25 1.7502 p50 3.9309 p75 6.5607 avg 3.9832 std 2.8042
+NN-MG RMSE-100%: p25 0.4319 p50 0.4984 p75 0.5713 avg 0.5029 std 0.0954
+NN-MG ISIN-10%: p25 16.6667 p50 22.2222 p75 30.5556 avg 24.0093 std 11.8578
+NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 55.5556 avg 42.9259 std 16.4041
+ALL-NN-MG RMSE-100%: p25 0.4319 p50 0.4984 p75 0.5713 avg 0.5029 std 0.0954
+ALL-NN-MG ISIN-10%: p25 16.6667 p50 22.2222 p75 30.5556 avg 24.0093 std 11.8578
+ALL-NN-MG ISIN-20%: p25 30.5556 p50 41.6667 p75 55.5556 avg 42.9259 std 16.4041
+NN-MG LL calculation and prediction, elapsed time: 0:00:32
+RNN-STD RMSE-100%: p25 0.3965 p50 0.4583 p75 0.5216 avg 0.4647 std 0.0884
+RNN-STD ISIN-10%: p25 19.4444 p50 27.7778 p75 36.1111 avg 28.2222 std 13.0883
+RNN-STD ISIN-20%: p25 36.1111 p50 47.2222 p75 61.1111 avg 47.8148 std 16.1114
+ALL-RNN-STD RMSE-100%: p25 0.3965 p50 0.4583 p75 0.5216 avg 0.4647 std 0.0884
+ALL-RNN-STD ISIN-10%: p25 19.4444 p50 27.7778 p75 36.1111 avg 28.2222 std 13.0883
+ALL-RNN-STD ISIN-20%: p25 36.1111 p50 47.2222 p75 61.1111 avg 47.8148 std 16.1114
+RNN-STD LL calculation and prediction, elapsed time: 0:00:00
+RNN-MG LL-100%: p25 -1.243 p50 1.3429 p75 4.3008 avg 1.2994 std 3.6804
+RNN-MG TrainLL-100%: p25 -0.6771 p50 1.9193 p75 4.6269 avg 1.7851 std 3.2116
+Making directory ./results/raw/seqcomp/japanvowels
+Working on data/japanvowels/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -3.8517 p50 -0.9749 p75 2.3663 avg -1.1016 std 4.5745
+NN-MG TrainLL-100%: p25 1.7502 p50 3.9309 p75 6.5607 avg 3.9832 std 2.8042
+NN-MG RMSE-100%: p25 0.3676 p50 0.423 p75 0.4849 avg 0.4281 std 0.0778
+NN-MG ISIN-10%: p25 21.6667 p50 30.0 p75 38.3333 avg 30.4717 std 11.4378
+NN-MG ISIN-20%: p25 40.0 p50 50.0 p75 60.0 avg 50.7352 std 13.8019
+NN-MG LL calculation and prediction, elapsed time: 0:00:37
+RNN-STD RMSE-100%: p25 0.4053 p50 0.4657 p75 0.5264 avg 0.4661 std 0.0809
+RNN-STD ISIN-10%: p25 18.3333 p50 25.0 p75 33.3333 avg 26.7101 std 10.1923
+RNN-STD ISIN-20%: p25 36.6667 p50 45.8333 p75 55.4167 avg 45.8667 std 13.3965
+RNN-STD LL calculation and prediction, elapsed time: 0:00:00
+RNN-MG LL-100%: p25 -1.243 p50 1.3429 p75 4.3008 avg 1.2994 std 3.6804
+RNN-MG TrainLL-100%: p25 -0.6771 p50 1.9193 p75 4.6269 avg 1.7851 std 3.2116
+RNN-MG RMSE-100%: p25 0.4024 p50 0.47 p75 0.5332 avg 0.473 std 0.0894
+RNN-MG ISIN-10%: p25 16.6667 p50 25.0 p75 38.8889 avg 27.75 std 13.9508
+RNN-MG ISIN-20%: p25 36.1111 p50 44.4444 p75 58.3333 avg 47.1759 std 16.1692
+ALL-RNN-MG RMSE-100%: p25 0.4024 p50 0.47 p75 0.5332 avg 0.473 std 0.0894
+ALL-RNN-MG ISIN-10%: p25 16.6667 p50 25.0 p75 38.8889 avg 27.75 std 13.9508
+ALL-RNN-MG ISIN-20%: p25 36.1111 p50 44.4444 p75 58.3333 avg 47.1759 std 16.1692
+RNN-MG LL calculation and prediction, elapsed time: 0:01:30
+RNN-IndMGx3 LL-100%: p25 -2.1787 p50 0.262 p75 4.2466 avg 0.6254 std 4.01
+RNN-IndMGx3 TrainLL-100%: p25 -1.1794 p50 1.2202 p75 4.4318 avg 1.4412 std 3.5863
+RNN-MG RMSE-100%: p25 0.3314 p50 0.386 p75 0.4453 avg 0.3888 std 0.0804
+RNN-MG ISIN-10%: p25 26.6667 p50 36.6667 p75 48.3333 avg 37.9168 std 13.7647
+RNN-MG ISIN-20%: p25 46.6667 p50 58.3333 p75 70.0 avg 57.7317 std 14.6168
+RNN-MG LL calculation and prediction, elapsed time: 0:01:34
+RNN-IndMGx3 LL-100%: p25 -2.1787 p50 0.262 p75 4.2466 avg 0.6254 std 4.01
+RNN-IndMGx3 TrainLL-100%: p25 -1.1794 p50 1.2202 p75 4.4318 avg 1.4412 std 3.5863
+RNN-IndMGx3 RMSE-100%: p25 0.4008 p50 0.454 p75 0.5253 avg 0.4672 std 0.0884
+RNN-IndMGx3 ISIN-10%: p25 19.4444 p50 25.0 p75 36.1111 avg 28.3519 std 12.9131
+RNN-IndMGx3 ISIN-20%: p25 36.1111 p50 47.2222 p75 58.3333 avg 47.8519 std 16.2562
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.4008 p50 0.454 p75 0.5253 avg 0.4672 std 0.0884
+ALL-RNN-IndMGx3 ISIN-10%: p25 19.4444 p50 25.0 p75 36.1111 avg 28.3519 std 12.9131
+ALL-RNN-IndMGx3 ISIN-20%: p25 36.1111 p50 47.2222 p75 58.3333 avg 47.8519 std 16.2562
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:01:58
+Results saved.
+Making directory ./results/raw/trajectory/natops
+Working on data/natops/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -8.0737 p50 -0.9109 p75 6.4953 avg -2.6976 std 11.7677
+NN-MG TrainLL-100%: p25 6.0557 p50 11.2257 p75 15.443 avg 10.7375 std 4.7938
+NN-MG RMSE-100%: p25 0.2958 p50 0.3407 p75 0.4097 avg 0.3768 std 0.1166
+NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 27.0767 std 12.9051
+NN-MG ISIN-20%: p25 33.3333 p50 47.619 p75 59.5238 avg 46.9974 std 16.786
+ALL-NN-MG RMSE-100%: p25 0.2958 p50 0.3407 p75 0.4097 avg 0.3768 std 0.1166
+ALL-NN-MG ISIN-10%: p25 16.6667 p50 26.1905 p75 35.7143 avg 27.0767 std 12.9051
+ALL-NN-MG ISIN-20%: p25 33.3333 p50 47.619 p75 59.5238 avg 46.9974 std 16.786
+NN-MG LL calculation and prediction, elapsed time: 0:00:24
+RNN-STD RMSE-100%: p25 0.2627 p50 0.3068 p75 0.3521 avg 0.3195 std 0.083
+RNN-STD ISIN-10%: p25 28.5714 p50 35.7143 p75 45.2381 avg 36.7063 std 13.5407
+RNN-STD ISIN-20%: p25 47.619 p50 57.1429 p75 69.0476 avg 57.4868 std 14.7715
+ALL-RNN-STD RMSE-100%: p25 0.2627 p50 0.3068 p75 0.3521 avg 0.3195 std 0.083
+ALL-RNN-STD ISIN-10%: p25 28.5714 p50 35.7143 p75 45.2381 avg 36.7063 std 13.5407
+ALL-RNN-STD ISIN-20%: p25 47.619 p50 57.1429 p75 69.0476 avg 57.4868 std 14.7715
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 1.0808 p50 5.8991 p75 13.8509 avg 5.6073 std 9.1583
+RNN-MG TrainLL-100%: p25 5.8167 p50 10.3157 p75 15.6495 avg 10.5085 std 5.1111
+RNN-MG RMSE-100%: p25 0.2321 p50 0.2803 p75 0.3429 avg 0.3013 std 0.0967
+RNN-MG ISIN-10%: p25 28.5714 p50 42.8571 p75 50.0 avg 40.8466 std 16.0444
+RNN-MG ISIN-20%: p25 50.0 p50 61.9048 p75 72.0238 avg 60.6481 std 16.7071
+ALL-RNN-MG RMSE-100%: p25 0.2321 p50 0.2803 p75 0.3429 avg 0.3013 std 0.0967
+ALL-RNN-MG ISIN-10%: p25 28.5714 p50 42.8571 p75 50.0 avg 40.8466 std 16.0444
+ALL-RNN-MG ISIN-20%: p25 50.0 p50 61.9048 p75 72.0238 avg 60.6481 std 16.7071
+RNN-MG LL calculation and prediction, elapsed time: 0:02:06
+RNN-IndMGx3 LL-100%: p25 2.6021 p50 7.6369 p75 14.2079 avg 7.2336 std 7.3819
+RNN-IndMGx3 TrainLL-100%: p25 6.7588 p50 10.8115 p75 15.8173 avg 11.0872 std 4.9293
+RNN-IndMGx3 RMSE-100%: p25 0.3349 p50 0.4054 p75 0.4815 avg 0.4245 std 0.1275
+RNN-IndMGx3 ISIN-10%: p25 23.3333 p50 33.3333 p75 46.6667 avg 35.0268 std 15.2992
+RNN-IndMGx3 ISIN-20%: p25 41.4352 p50 55.0 p75 66.6667 avg 53.6417 std 17.376
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:46
+Results saved.
+Making directory ./results/raw/seqcomp/natops
+Working on data/natops/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -8.0737 p50 -0.9109 p75 6.4953 avg -2.6976 std 11.7677
+NN-MG TrainLL-100%: p25 6.0557 p50 11.2257 p75 15.443 avg 10.7375 std 4.7938
+NN-MG RMSE-100%: p25 0.2947 p50 0.3527 p75 0.4446 avg 0.3798 std 0.1199
+NN-MG ISIN-10%: p25 22.8571 p50 28.5714 p75 38.5714 avg 31.5556 std 13.0855
+NN-MG ISIN-20%: p25 38.5714 p50 50.0 p75 60.3571 avg 50.3254 std 15.7214
+NN-MG LL calculation and prediction, elapsed time: 0:00:27
+RNN-STD RMSE-100%: p25 0.2612 p50 0.312 p75 0.3962 avg 0.3373 std 0.0993
+RNN-STD ISIN-10%: p25 28.5714 p50 35.7143 p75 42.8571 avg 36.9683 std 12.2184
+RNN-STD ISIN-20%: p25 48.5714 p50 57.1429 p75 67.1429 avg 57.7143 std 14.0735
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 1.0808 p50 5.8991 p75 13.8509 avg 5.6073 std 9.1583
+RNN-MG TrainLL-100%: p25 5.8167 p50 10.3157 p75 15.6495 avg 10.5085 std 5.1111
+RNN-IndMGx3 RMSE-100%: p25 0.231 p50 0.2684 p75 0.3323 avg 0.2958 std 0.0998
+RNN-IndMGx3 ISIN-10%: p25 28.5714 p50 42.8571 p75 52.9762 avg 42.0635 std 17.0015
+RNN-IndMGx3 ISIN-20%: p25 50.0 p50 64.2857 p75 76.1905 avg 62.1429 std 17.7237
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.231 p50 0.2684 p75 0.3323 avg 0.2958 std 0.0998
+ALL-RNN-IndMGx3 ISIN-10%: p25 28.5714 p50 42.8571 p75 52.9762 avg 42.0635 std 17.0015
+ALL-RNN-IndMGx3 ISIN-20%: p25 50.0 p50 64.2857 p75 76.1905 avg 62.1429 std 17.7237
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:27
+Results saved.
+Making directory ./results/raw/trajectory/fingermovement
+Working on data/fingermovement/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.3777 p50 -1.9868 p75 0.393 avg -3.2159 std 5.9478
+NN-MG TrainLL-100%: p25 -1.158 p50 1.4175 p75 3.7258 avg 1.0614 std 3.6411
+RNN-MG RMSE-100%: p25 0.2047 p50 0.2542 p75 0.3381 avg 0.2791 std 0.1036
+RNN-MG ISIN-10%: p25 38.5714 p50 52.1429 p75 61.4286 avg 51.0794 std 16.1207
+RNN-MG ISIN-20%: p25 60.0 p50 70.0 p75 78.5714 avg 68.3571 std 14.321
+RNN-MG LL calculation and prediction, elapsed time: 0:02:08
+RNN-IndMGx3 LL-100%: p25 2.6021 p50 7.6369 p75 14.2079 avg 7.2336 std 7.3819
+RNN-IndMGx3 TrainLL-100%: p25 6.7588 p50 10.8115 p75 15.8173 avg 11.0872 std 4.9293
+NN-MG RMSE-100%: p25 0.4978 p50 0.5332 p75 0.6011 avg 0.5564 std 0.0831
+NN-MG ISIN-10%: p25 10.7143 p50 13.0952 p75 17.8571 avg 15.0595 std 7.7744
+NN-MG ISIN-20%: p25 21.4286 p50 27.381 p75 36.9048 avg 30.0595 std 11.5229
+ALL-NN-MG RMSE-100%: p25 0.4978 p50 0.5332 p75 0.6011 avg 0.5564 std 0.0831
+ALL-NN-MG ISIN-10%: p25 10.7143 p50 13.0952 p75 17.8571 avg 15.0595 std 7.7744
+ALL-NN-MG ISIN-20%: p25 21.4286 p50 27.381 p75 36.9048 avg 30.0595 std 11.5229
+NN-MG LL calculation and prediction, elapsed time: 0:01:22
+RNN-STD RMSE-100%: p25 0.3585 p50 0.3789 p75 0.408 avg 0.3883 std 0.0429
+RNN-STD ISIN-10%: p25 22.619 p50 29.7619 p75 40.4762 avg 32.631 std 11.931
+RNN-STD ISIN-20%: p25 42.8571 p50 52.9762 p75 64.2857 avg 54.2262 std 14.4704
+ALL-RNN-STD RMSE-100%: p25 0.3585 p50 0.3789 p75 0.408 avg 0.3883 std 0.0429
+ALL-RNN-STD ISIN-10%: p25 22.619 p50 29.7619 p75 40.4762 avg 32.631 std 11.931
+ALL-RNN-STD ISIN-20%: p25 42.8571 p50 52.9762 p75 64.2857 avg 54.2262 std 14.4704
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 7.2456 p50 11.1922 p75 13.0656 avg 9.1962 std 9.2359
+RNN-IndMGx3 TrainLL-100%: p25 11.3284 p50 13.8595 p75 15.6529 avg 13.1955 std 3.6741
+RNN-IndMGx3 RMSE-100%: p25 0.4246 p50 0.4474 p75 0.4716 avg 0.4523 std 0.0472
+RNN-IndMGx3 ISIN-10%: p25 23.8095 p50 30.9524 p75 40.4762 avg 33.25 std 11.2753
+RNN-IndMGx3 ISIN-20%: p25 42.5595 p50 51.1905 p75 63.0952 avg 53.2619 std 13.285
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.4246 p50 0.4474 p75 0.4716 avg 0.4523 std 0.0472
+ALL-RNN-IndMGx3 ISIN-10%: p25 23.8095 p50 30.9524 p75 40.4762 avg 33.25 std 11.2753
+ALL-RNN-IndMGx3 ISIN-20%: p25 42.5595 p50 51.1905 p75 63.0952 avg 53.2619 std 13.285
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:01:42
+RNN-MG LL-100%: p25 11.1809 p50 14.3424 p75 16.8781 avg 12.3232 std 13.5287
+RNN-MG TrainLL-100%: p25 15.7769 p50 17.8369 p75 19.9122 avg 17.4091 std 3.6028
+RNN-IndMGx3 RMSE-100%: p25 0.2027 p50 0.2578 p75 0.3518 avg 0.2923 std 0.1261
+RNN-IndMGx3 ISIN-10%: p25 37.1429 p50 50.0 p75 65.7143 avg 50.8968 std 18.0984
+RNN-IndMGx3 ISIN-20%: p25 57.1429 p50 70.0 p75 80.0 avg 67.4683 std 17.0964
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:53
+Results saved.
+Making directory ./results/raw/seqcomp/fingermovement
+Working on data/fingermovement/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.3777 p50 -1.9868 p75 0.393 avg -3.2159 std 5.9478
+NN-MG TrainLL-100%: p25 -1.158 p50 1.4175 p75 3.7258 avg 1.0614 std 3.6411
+RNN-MG RMSE-100%: p25 0.3344 p50 0.3477 p75 0.3719 avg 0.3572 std 0.0485
+RNN-MG ISIN-10%: p25 30.9524 p50 36.3095 p75 46.7262 avg 38.8095 std 10.4124
+RNN-MG ISIN-20%: p25 49.7024 p50 60.7143 p75 70.5357 avg 60.9048 std 12.891
+ALL-RNN-MG RMSE-100%: p25 0.3344 p50 0.3477 p75 0.3719 avg 0.3572 std 0.0485
+ALL-RNN-MG ISIN-10%: p25 30.9524 p50 36.3095 p75 46.7262 avg 38.8095 std 10.4124
+ALL-RNN-MG ISIN-20%: p25 49.7024 p50 60.7143 p75 70.5357 avg 60.9048 std 12.891
+RNN-MG LL calculation and prediction, elapsed time: 0:01:21
+Results saved.
+Making directory ./results/raw/trajectory/lsst
+Working on data/lsst/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.9047 p50 0.6049 p75 3.9216 avg -2.9415 std 13.325
+NN-MG TrainLL-100%: p25 2.4611 p50 5.029 p75 6.7566 avg 3.36 std 5.693
+NN-MG RMSE-100%: p25 0.2168 p50 0.3191 p75 0.5975 avg 0.4812 std 0.4263
+NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.4444 std 12.4925
+NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.3519 std 19.5078
+ALL-NN-MG RMSE-100%: p25 0.2168 p50 0.3191 p75 0.5975 avg 0.4812 std 0.4263
+ALL-NN-MG ISIN-10%: p25 0.0 p50 5.5556 p75 16.6667 avg 11.4444 std 12.4925
+ALL-NN-MG ISIN-20%: p25 5.5556 p50 16.6667 p75 27.7778 avg 20.3519 std 19.5078
+NN-MG LL calculation and prediction, elapsed time: 0:00:27
+RNN-STD RMSE-100%: p25 0.3613 p50 0.4227 p75 0.6011 avg 0.5758 std 0.3742
+RNN-STD ISIN-10%: p25 0.0 p50 5.5556 p75 5.5556 avg 4.7778 std 5.8101
+RNN-STD ISIN-20%: p25 5.5556 p50 5.5556 p75 11.1111 avg 9.2963 std 8.5104
+ALL-RNN-STD RMSE-100%: p25 0.3613 p50 0.4227 p75 0.6011 avg 0.5758 std 0.3742
+ALL-RNN-STD ISIN-10%: p25 0.0 p50 5.5556 p75 5.5556 avg 4.7778 std 5.8101
+ALL-RNN-STD ISIN-20%: p25 5.5556 p50 5.5556 p75 11.1111 avg 9.2963 std 8.5104
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 -2.9771 p50 2.8548 p75 5.3178 avg -0.4 std 8.8706
+RNN-MG TrainLL-100%: p25 4.506 p50 5.9726 p75 7.1561 avg 4.6874 std 4.6097
+NN-MG RMSE-100%: p25 0.4375 p50 0.4687 p75 0.4981 avg 0.47 std 0.0514
+NN-MG ISIN-10%: p25 17.1429 p50 22.8571 p75 28.5714 avg 23.6214 std 8.4221
+NN-MG ISIN-20%: p25 32.1429 p50 40.7143 p75 51.4286 avg 42.0071 std 12.4649
+NN-MG LL calculation and prediction, elapsed time: 0:01:24
+RNN-STD RMSE-100%: p25 0.3754 p50 0.3938 p75 0.4164 avg 0.4004 std 0.0445
+RNN-STD ISIN-10%: p25 21.9643 p50 27.8571 p75 38.75 avg 30.5143 std 10.5633
+RNN-STD ISIN-20%: p25 40.7143 p50 49.2857 p75 61.6071 avg 51.1714 std 14.3564
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 7.2456 p50 11.1922 p75 13.0656 avg 9.1962 std 9.2359
+RNN-IndMGx3 TrainLL-100%: p25 11.3284 p50 13.8595 p75 15.6529 avg 13.1955 std 3.6741
+RNN-MG RMSE-100%: p25 0.2147 p50 0.2894 p75 0.537 avg 0.4679 std 0.454
+RNN-MG ISIN-10%: p25 5.5556 p50 11.1111 p75 16.6667 avg 12.0926 std 11.8097
+RNN-MG ISIN-20%: p25 9.7222 p50 16.6667 p75 33.3333 avg 22.0556 std 17.9297
+ALL-RNN-MG RMSE-100%: p25 0.2147 p50 0.2894 p75 0.537 avg 0.4679 std 0.454
+ALL-RNN-MG ISIN-10%: p25 5.5556 p50 11.1111 p75 16.6667 avg 12.0926 std 11.8097
+ALL-RNN-MG ISIN-20%: p25 9.7222 p50 16.6667 p75 33.3333 avg 22.0556 std 17.9297
+RNN-MG LL calculation and prediction, elapsed time: 0:02:23
+RNN-IndMGx3 LL-100%: p25 -1.0794 p50 3.5581 p75 5.7483 avg 1.3694 std 6.232
+RNN-IndMGx3 TrainLL-100%: p25 5.1434 p50 6.3992 p75 7.3689 avg 5.2866 std 3.9128
+RNN-IndMGx3 RMSE-100%: p25 0.3721 p50 0.3926 p75 0.4149 avg 0.4 std 0.0803
+RNN-IndMGx3 ISIN-10%: p25 28.5714 p50 34.6429 p75 42.8571 avg 35.8429 std 11.0866
+RNN-IndMGx3 ISIN-20%: p25 45.5357 p50 56.4286 p75 66.0714 avg 56.1929 std 13.6322
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:03
+RNN-MG LL-100%: p25 11.1809 p50 14.3424 p75 16.8781 avg 12.3232 std 13.5287
+RNN-MG TrainLL-100%: p25 15.7769 p50 17.8369 p75 19.9122 avg 17.4091 std 3.6028
+RNN-MG RMSE-100%: p25 0.3233 p50 0.3378 p75 0.3584 avg 0.3459 std 0.0478
+RNN-MG ISIN-10%: p25 31.25 p50 39.2857 p75 47.8571 avg 40.2643 std 11.6438
+RNN-MG ISIN-20%: p25 50.7143 p50 61.4286 p75 71.6071 avg 61.6286 std 13.004
+RNN-MG LL calculation and prediction, elapsed time: 0:01:24
+Results saved.
+Making directory ./results/raw/seqcomp/lsst
+Working on data/lsst/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -5.9047 p50 0.6049 p75 3.9216 avg -2.9415 std 13.325
+NN-MG TrainLL-100%: p25 2.4611 p50 5.029 p75 6.7566 avg 3.36 std 5.693
+NN-MG RMSE-100%: p25 0.2389 p50 0.3448 p75 0.6109 avg 0.503 std 0.4206
+NN-MG ISIN-10%: p25 3.3333 p50 6.6667 p75 10.8333 avg 9.4556 std 9.2155
+NN-MG ISIN-20%: p25 6.6667 p50 16.6667 p75 23.3333 avg 18.1889 std 14.4535
+NN-MG LL calculation and prediction, elapsed time: 0:00:30
+RNN-STD RMSE-100%: p25 0.3705 p50 0.4467 p75 0.6204 avg 0.5976 std 0.3827
+RNN-STD ISIN-10%: p25 3.3333 p50 3.3333 p75 6.6667 avg 5.5111 std 4.8226
+RNN-STD ISIN-20%: p25 6.6667 p50 10.0 p75 13.3333 avg 10.5667 std 7.3241
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL-100%: p25 -2.9771 p50 2.8548 p75 5.3178 avg -0.4 std 8.8706
+RNN-MG TrainLL-100%: p25 4.506 p50 5.9726 p75 7.1561 avg 4.6874 std 4.6097
+RNN-IndMGx3 RMSE-100%: p25 0.2125 p50 0.2869 p75 0.5263 avg 0.4589 std 0.4534
+RNN-IndMGx3 ISIN-10%: p25 5.5556 p50 11.1111 p75 22.2222 avg 13.3889 std 10.8704
+RNN-IndMGx3 ISIN-20%: p25 11.1111 p50 22.2222 p75 33.3333 avg 23.7222 std 16.1051
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.2125 p50 0.2869 p75 0.5263 avg 0.4589 std 0.4534
+ALL-RNN-IndMGx3 ISIN-10%: p25 5.5556 p50 11.1111 p75 22.2222 avg 13.3889 std 10.8704
+ALL-RNN-IndMGx3 ISIN-20%: p25 11.1111 p50 22.2222 p75 33.3333 avg 23.7222 std 16.1051
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:27
+Results saved.
+Making directory ./results/raw/trajectory/wordrecognition
+Working on data/wordrecognition/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -0.1692 p50 1.5829 p75 3.6062 avg 1.5606 std 2.5595
+NN-MG TrainLL-100%: p25 1.2147 p50 2.8861 p75 4.7204 avg 2.8167 std 2.2493
+NN-MG RMSE-100%: p25 0.4438 p50 0.5189 p75 0.583 avg 0.5234 std 0.1109
+NN-MG ISIN-10%: p25 18.5185 p50 25.9259 p75 33.3333 avg 26.5432 std 12.9111
+NN-MG ISIN-20%: p25 33.3333 p50 44.4444 p75 55.5556 avg 44.4938 std 15.9014
+ALL-NN-MG RMSE-100%: p25 0.4438 p50 0.5189 p75 0.583 avg 0.5234 std 0.1109
+ALL-NN-MG ISIN-10%: p25 18.5185 p50 25.9259 p75 33.3333 avg 26.5432 std 12.9111
+ALL-NN-MG ISIN-20%: p25 33.3333 p50 44.4444 p75 55.5556 avg 44.4938 std 15.9014
+NN-MG LL calculation and prediction, elapsed time: 0:00:39
+RNN-STD RMSE-100%: p25 0.3826 p50 0.4507 p75 0.5304 avg 0.4617 std 0.1119
+RNN-STD ISIN-10%: p25 22.2222 p50 33.3333 p75 44.4444 avg 33.321 std 14.2115
+RNN-STD ISIN-20%: p25 40.7407 p50 51.8519 p75 62.963 avg 53.0247 std 15.7235
+ALL-RNN-STD RMSE-100%: p25 0.3826 p50 0.4507 p75 0.5304 avg 0.4617 std 0.1119
+ALL-RNN-STD ISIN-10%: p25 22.2222 p50 33.3333 p75 44.4444 avg 33.321 std 14.2115
+ALL-RNN-STD ISIN-20%: p25 40.7407 p50 51.8519 p75 62.963 avg 53.0247 std 15.7235
+RNN-STD LL calculation and prediction, elapsed time: 0:00:06
+RNN-MG LL-100%: p25 0.934 p50 2.7273 p75 4.637 avg 2.6556 std 2.3501
+RNN-MG TrainLL-100%: p25 1.3443 p50 3.0329 p75 4.8988 avg 2.9913 std 2.3464
+RNN-MG RMSE-100%: p25 0.2715 p50 0.3635 p75 0.5816 avg 0.5118 std 0.428
+RNN-MG ISIN-10%: p25 6.6667 p50 10.0 p75 16.6667 avg 11.7778 std 8.7953
+RNN-MG ISIN-20%: p25 10.0 p50 20.0 p75 26.6667 avg 21.3222 std 14.3524
+RNN-MG LL calculation and prediction, elapsed time: 0:02:26
+RNN-IndMGx3 LL-100%: p25 -1.0794 p50 3.5581 p75 5.7483 avg 1.3694 std 6.232
+RNN-IndMGx3 TrainLL-100%: p25 5.1434 p50 6.3992 p75 7.3689 avg 5.2866 std 3.9128
+RNN-IndMGx3 RMSE-100%: p25 0.3167 p50 0.4372 p75 0.6245 avg 0.5608 std 0.4073
+RNN-IndMGx3 ISIN-10%: p25 3.3333 p50 10.0 p75 16.6667 avg 10.9222 std 8.037
+RNN-IndMGx3 ISIN-20%: p25 10.0 p50 16.6667 p75 26.6667 avg 19.1667 std 12.0926
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:06:14
+Results saved.
+Making directory ./results/raw/seqcomp/wordrecognition
+Working on data/wordrecognition/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -0.1692 p50 1.5829 p75 3.6062 avg 1.5606 std 2.5595
+NN-MG TrainLL-100%: p25 1.2147 p50 2.8861 p75 4.7204 avg 2.8167 std 2.2493
+NN-MG RMSE-100%: p25 0.3603 p50 0.4261 p75 0.4839 avg 0.43 std 0.0982
+NN-MG ISIN-10%: p25 30.0 p50 40.0 p75 48.125 avg 41.0917 std 13.8141
+NN-MG ISIN-20%: p25 49.375 p50 57.5 p75 67.5 avg 58.8583 std 14.2934
+NN-MG LL calculation and prediction, elapsed time: 0:00:43
+RNN-STD RMSE-100%: p25 0.3813 p50 0.4364 p75 0.5064 avg 0.4473 std 0.092
+RNN-STD ISIN-10%: p25 27.5 p50 37.5 p75 45.0 avg 37.0 std 12.244
+RNN-STD ISIN-20%: p25 45.0 p50 55.0 p75 65.0 avg 55.4833 std 13.3282
+RNN-STD LL calculation and prediction, elapsed time: 0:00:06
+RNN-MG LL-100%: p25 0.934 p50 2.7273 p75 4.637 avg 2.6556 std 2.3501
+RNN-MG TrainLL-100%: p25 1.3443 p50 3.0329 p75 4.8988 avg 2.9913 std 2.3464
+RNN-MG RMSE-100%: p25 0.3696 p50 0.4286 p75 0.5197 avg 0.4461 std 0.1117
+RNN-MG ISIN-10%: p25 29.6296 p50 37.037 p75 44.4444 avg 37.5062 std 14.1957
+RNN-MG ISIN-20%: p25 44.4444 p50 55.5556 p75 66.6667 avg 56.358 std 14.9911
+ALL-RNN-MG RMSE-100%: p25 0.3696 p50 0.4286 p75 0.5197 avg 0.4461 std 0.1117
+ALL-RNN-MG ISIN-10%: p25 29.6296 p50 37.037 p75 44.4444 avg 37.5062 std 14.1957
+ALL-RNN-MG ISIN-20%: p25 44.4444 p50 55.5556 p75 66.6667 avg 56.358 std 14.9911
+RNN-MG LL calculation and prediction, elapsed time: 0:08:55
+RNN-IndMGx3 LL-100%: p25 2.3002 p50 4.0131 p75 5.1877 avg 3.6882 std 1.9122
+RNN-IndMGx3 TrainLL-100%: p25 2.738 p50 4.1639 p75 5.4084 avg 4.0379 std 1.8652
+RNN-MG RMSE-100%: p25 0.3093 p50 0.3652 p75 0.4422 avg 0.3799 std 0.0937
+RNN-MG ISIN-10%: p25 40.0 p50 47.5 p75 57.5 avg 48.7583 std 13.2955
+RNN-MG ISIN-20%: p25 57.5 p50 67.5 p75 75.0 avg 65.95 std 13.4387
+RNN-MG LL calculation and prediction, elapsed time: 0:09:03
+RNN-IndMGx3 LL-100%: p25 2.3002 p50 4.0131 p75 5.1877 avg 3.6882 std 1.9122
+RNN-IndMGx3 TrainLL-100%: p25 2.738 p50 4.1639 p75 5.4084 avg 4.0379 std 1.8652
+RNN-IndMGx3 RMSE-100%: p25 0.3621 p50 0.4354 p75 0.5296 avg 0.4509 std 0.1262
+RNN-IndMGx3 ISIN-10%: p25 25.9259 p50 40.7407 p75 51.8519 avg 40.5432 std 17.2095
+RNN-IndMGx3 ISIN-20%: p25 44.4444 p50 59.2593 p75 70.3704 avg 57.5679 std 16.7179
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.3621 p50 0.4354 p75 0.5296 avg 0.4509 std 0.1262
+ALL-RNN-IndMGx3 ISIN-10%: p25 25.9259 p50 40.7407 p75 51.8519 avg 40.5432 std 17.2095
+ALL-RNN-IndMGx3 ISIN-20%: p25 44.4444 p50 59.2593 p75 70.3704 avg 57.5679 std 16.7179
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:10:16
+Results saved.
+Making directory ./results/raw/trajectory/conll2000
+Working on data/conll2000/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -143.1536 p50 -137.8902 p75 -131.934 avg -137.9127 std 9.3671
+NN-MG TrainLL-100%: p25 -137.9047 p50 -133.0385 p75 -128.0327 avg -133.2438 std 7.8944
+NN-MG RMSE-100%: p25 0.8558 p50 0.8954 p75 0.9331 avg 0.8946 std 0.0565
+NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9767 std 0.6187
+NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.3333 avg 2.0322 std 1.0407
+ALL-NN-MG RMSE-100%: p25 0.8558 p50 0.8954 p75 0.9331 avg 0.8946 std 0.0565
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.0 p75 1.3333 avg 0.9767 std 0.6187
+ALL-NN-MG ISIN-20%: p25 1.3333 p50 2.0 p75 2.3333 avg 2.0322 std 1.0407
+NN-MG LL calculation and prediction, elapsed time: 0:02:33
+RNN-STD RMSE-100%: p25 0.8541 p50 0.8907 p75 0.9293 avg 0.891 std 0.0567
+RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1922 std 0.7585
+RNN-STD ISIN-20%: p25 1.6667 p50 2.3333 p75 3.0 avg 2.4533 std 1.2306
+ALL-RNN-STD RMSE-100%: p25 0.8541 p50 0.8907 p75 0.9293 avg 0.891 std 0.0567
+ALL-RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1922 std 0.7585
+ALL-RNN-STD ISIN-20%: p25 1.6667 p50 2.3333 p75 3.0 avg 2.4533 std 1.2306
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 -129.7948 p50 -115.3959 p75 -99.6204 avg -114.2535 std 21.3786
+RNN-IndMGx3 TrainLL-100%: p25 -122.1327 p50 -107.4696 p75 -90.9505 avg -105.7109 std 23.6788
+RNN-IndMGx3 RMSE-100%: p25 0.9507 p50 0.9968 p75 1.0391 avg 0.9847 std 0.0814
+RNN-IndMGx3 ISIN-10%: p25 2.3333 p50 3.0 p75 4.0 avg 7.2122 std 10.2872
+RNN-IndMGx3 ISIN-20%: p25 5.0 p50 6.3333 p75 7.6667 avg 10.6011 std 11.2067
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.9507 p50 0.9968 p75 1.0391 avg 0.9847 std 0.0814
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.3333 p50 3.0 p75 4.0 avg 7.2122 std 10.2872
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.0 p50 6.3333 p75 7.6667 avg 10.6011 std 11.2067
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:05:09
+RNN-MG LL-100%: p25 -145.4264 p50 -138.4622 p75 -132.9861 avg -139.2675 std 9.4359
+RNN-MG TrainLL-100%: p25 -141.3599 p50 -135.8073 p75 -130.0338 avg -135.8442 std 8.9159
+RNN-IndMGx3 RMSE-100%: p25 0.3405 p50 0.4212 p75 0.5007 avg 0.4286 std 0.1127
+RNN-IndMGx3 ISIN-10%: p25 40.0 p50 50.0 p75 60.0 avg 49.4083 std 14.1702
+RNN-IndMGx3 ISIN-20%: p25 52.5 p50 65.0 p75 72.5 avg 63.525 std 13.789
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:13:39
+Results saved.
+Making directory ./results/raw/seqcomp/conll2000
+Working on data/conll2000/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -143.1536 p50 -137.8902 p75 -131.934 avg -137.9127 std 9.3671
+NN-MG TrainLL-100%: p25 -137.9047 p50 -133.0385 p75 -128.0327 avg -133.2438 std 7.8944
+RNN-MG RMSE-100%: p25 0.878 p50 0.9124 p75 0.9537 avg 0.914 std 0.0552
+RNN-MG ISIN-10%: p25 1.3333 p50 1.6667 p75 2.6667 avg 1.9456 std 0.8122
+RNN-MG ISIN-20%: p25 3.0 p50 3.6667 p75 4.6667 avg 3.9211 std 1.1675
+ALL-RNN-MG RMSE-100%: p25 0.878 p50 0.9124 p75 0.9537 avg 0.914 std 0.0552
+ALL-RNN-MG ISIN-10%: p25 1.3333 p50 1.6667 p75 2.6667 avg 1.9456 std 0.8122
+ALL-RNN-MG ISIN-20%: p25 3.0 p50 3.6667 p75 4.6667 avg 3.9211 std 1.1675
+RNN-MG LL calculation and prediction, elapsed time: 0:03:21
+Results saved.
+Making directory ./results/raw/trajectory/arabicdigit
+Working on data/arabicdigit/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -10.094 p50 -9.2179 p75 -8.3107 avg -9.2131 std 1.6289
+NN-MG TrainLL-100%: p25 -7.2152 p50 -5.6143 p75 -4.0589 avg -5.6646 std 2.1556
+NN-MG RMSE-100%: p25 0.6432 p50 0.7192 p75 0.798 avg 0.7203 std 0.0954
+NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.1282 std 5.3751
+NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.1966 std 7.9147
+ALL-NN-MG RMSE-100%: p25 0.6432 p50 0.7192 p75 0.798 avg 0.7203 std 0.0954
+ALL-NN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 10.2564 avg 8.1282 std 5.3751
+ALL-NN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 20.5128 avg 15.1966 std 7.9147
+NN-MG LL calculation and prediction, elapsed time: 0:00:44
+RNN-STD RMSE-100%: p25 0.6082 p50 0.6669 p75 0.7297 avg 0.6749 std 0.0943
+RNN-STD ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.9402 std 5.4933
+RNN-STD ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 17.0427 std 8.3986
+ALL-RNN-STD RMSE-100%: p25 0.6082 p50 0.6669 p75 0.7297 avg 0.6749 std 0.0943
+ALL-RNN-STD ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.9402 std 5.4933
+ALL-RNN-STD ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 17.0427 std 8.3986
+RNN-STD LL calculation and prediction, elapsed time: 0:00:02
+RNN-MG LL-100%: p25 -9.1694 p50 -8.1189 p75 -7.2217 avg -8.1398 std 1.4307
+RNN-MG TrainLL-100%: p25 -7.2665 p50 -5.7143 p75 -4.1884 avg -5.7189 std 2.1965
+NN-MG RMSE-100%: p25 0.8496 p50 0.8799 p75 0.9067 avg 0.8781 std 0.0409
+NN-MG ISIN-10%: p25 2.0 p50 2.6 p75 3.2 avg 2.7679 std 1.023
+NN-MG ISIN-20%: p25 4.5929 p50 5.4 p75 6.4 avg 5.6197 std 1.6648
+NN-MG LL calculation and prediction, elapsed time: 0:03:10
+RNN-STD RMSE-100%: p25 0.8569 p50 0.8803 p75 0.9067 avg 0.8802 std 0.0369
+RNN-STD ISIN-10%: p25 0.8 p50 1.127 p75 1.4 avg 1.1551 std 0.5419
+RNN-STD ISIN-20%: p25 1.8 p50 2.4 p75 3.0 avg 2.4648 std 0.8452
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 -129.7948 p50 -115.3959 p75 -99.6204 avg -114.2535 std 21.3786
+RNN-IndMGx3 TrainLL-100%: p25 -122.1327 p50 -107.4696 p75 -90.9505 avg -105.7109 std 23.6788
+RNN-MG RMSE-100%: p25 0.624 p50 0.6937 p75 0.7727 avg 0.6991 std 0.101
+RNN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.4444 std 5.5315
+RNN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 16.8034 std 8.5506
+ALL-RNN-MG RMSE-100%: p25 0.624 p50 0.6937 p75 0.7727 avg 0.6991 std 0.101
+ALL-RNN-MG ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 8.4444 std 5.5315
+ALL-RNN-MG ISIN-20%: p25 10.2564 p50 15.3846 p75 23.0769 avg 16.8034 std 8.5506
+RNN-MG LL calculation and prediction, elapsed time: 0:02:57
+RNN-IndMGx3 LL-100%: p25 -9.0362 p50 -8.0682 p75 -7.3732 avg -8.1424 std 1.2188
+RNN-IndMGx3 TrainLL-100%: p25 -7.3409 p50 -5.9156 p75 -4.4706 avg -5.9105 std 2.0472
+RNN-IndMGx3 RMSE-100%: p25 0.6112 p50 0.6654 p75 0.7377 avg 0.6763 std 0.0987
+RNN-IndMGx3 ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 9.094 std 5.7799
+RNN-IndMGx3 ISIN-20%: p25 12.8205 p50 17.9487 p75 23.0769 avg 17.9744 std 8.4667
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.6112 p50 0.6654 p75 0.7377 avg 0.6763 std 0.0987
+ALL-RNN-IndMGx3 ISIN-10%: p25 5.1282 p50 7.6923 p75 12.8205 avg 9.094 std 5.7799
+ALL-RNN-IndMGx3 ISIN-20%: p25 12.8205 p50 17.9487 p75 23.0769 avg 17.9744 std 8.4667
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:11
+Results saved.
+Making directory ./results/raw/trajectory/heartbeat
+Working on data/heartbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -14.2876 p50 1.1024 p75 19.2035 avg 2.2209 std 23.8159
+NN-MG TrainLL-100%: p25 -1.712 p50 14.0271 p75 27.2247 avg 12.8314 std 21.3739
+RNN-IndMGx3 RMSE-100%: p25 0.8156 p50 0.8561 p75 0.8883 avg 0.8501 std 0.056
+RNN-IndMGx3 ISIN-10%: p25 2.4 p50 9.4 p75 11.45 avg 8.9338 std 7.2972
+RNN-IndMGx3 ISIN-20%: p25 4.8 p50 12.2 p75 14.85 avg 11.8357 std 7.9477
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:05:24
+RNN-MG LL-100%: p25 -145.4264 p50 -138.4622 p75 -132.9861 avg -139.2675 std 9.4359
+RNN-MG TrainLL-100%: p25 -141.3599 p50 -135.8073 p75 -130.0338 avg -135.8442 std 8.9159
+NN-MG RMSE-100%: p25 0.3601 p50 0.4413 p75 0.6278 avg 0.5326 std 0.2683
+NN-MG ISIN-10%: p25 6.5574 p50 13.1148 p75 23.4973 avg 15.9784 std 11.5907
+NN-MG ISIN-20%: p25 12.8415 p50 27.8689 p75 43.9891 avg 29.8098 std 19.9418
+ALL-NN-MG RMSE-100%: p25 0.3601 p50 0.4413 p75 0.6278 avg 0.5326 std 0.2683
+ALL-NN-MG ISIN-10%: p25 6.5574 p50 13.1148 p75 23.4973 avg 15.9784 std 11.5907
+ALL-NN-MG ISIN-20%: p25 12.8415 p50 27.8689 p75 43.9891 avg 29.8098 std 19.9418
+NN-MG LL calculation and prediction, elapsed time: 0:04:02
+RNN-STD RMSE-100%: p25 0.3512 p50 0.4237 p75 0.5725 avg 0.4946 std 0.2316
+RNN-STD ISIN-10%: p25 4.918 p50 9.8361 p75 19.6721 avg 13.282 std 10.1963
+RNN-STD ISIN-20%: p25 12.0219 p50 20.2186 p75 38.2514 avg 26.343 std 18.7605
+ALL-RNN-STD RMSE-100%: p25 0.3512 p50 0.4237 p75 0.5725 avg 0.4946 std 0.2316
+ALL-RNN-STD ISIN-10%: p25 4.918 p50 9.8361 p75 19.6721 avg 13.282 std 10.1963
+ALL-RNN-STD ISIN-20%: p25 12.0219 p50 20.2186 p75 38.2514 avg 26.343 std 18.7605
+RNN-STD LL calculation and prediction, elapsed time: 0:00:29
+RNN-MG RMSE-100%: p25 0.8487 p50 0.8778 p75 0.9049 avg 0.8764 std 0.0388
+RNN-MG ISIN-10%: p25 2.0 p50 2.6 p75 3.2 avg 2.6598 std 0.8752
+RNN-MG ISIN-20%: p25 4.2 p50 5.2 p75 6.4 avg 5.3873 std 1.5037
+RNN-MG LL calculation and prediction, elapsed time: 0:04:06
+Results saved.
+Making directory ./results/raw/seqcomp/arabicdigit
+Working on data/arabicdigit/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+RNN-IndMGx3 LL-100%: p25 -3.9843 p50 11.786 p75 26.5941 avg 11.4525 std 21.4949
+RNN-IndMGx3 TrainLL-100%: p25 -1.089 p50 14.6964 p75 28.5466 avg 13.5119 std 25.9028
+NN-MG LL-100%: p25 -10.094 p50 -9.2179 p75 -8.3107 avg -9.2131 std 1.6289
+NN-MG TrainLL-100%: p25 -7.2152 p50 -5.6143 p75 -4.0589 avg -5.6646 std 2.1556
+NN-MG RMSE-100%: p25 0.5714 p50 0.6169 p75 0.6664 avg 0.6157 std 0.0687
+NN-MG ISIN-10%: p25 10.0 p50 13.3333 p75 16.6667 avg 13.4722 std 5.5402
+NN-MG ISIN-20%: p25 20.0 p50 23.3333 p75 30.0 avg 24.8333 std 7.7058
+NN-MG LL calculation and prediction, elapsed time: 0:00:48
+RNN-STD RMSE-100%: p25 0.6126 p50 0.6595 p75 0.6994 avg 0.6576 std 0.063
+RNN-STD ISIN-10%: p25 8.3333 p50 10.0 p75 13.3333 avg 10.6056 std 4.354
+RNN-STD ISIN-20%: p25 16.6667 p50 20.0 p75 23.75 avg 20.2278 std 6.3241
+RNN-STD LL calculation and prediction, elapsed time: 0:00:02
+RNN-MG LL-100%: p25 -9.1694 p50 -8.1189 p75 -7.2217 avg -8.1398 std 1.4307
+RNN-MG TrainLL-100%: p25 -7.2665 p50 -5.7143 p75 -4.1884 avg -5.7189 std 2.1965
+RNN-MG RMSE-100%: p25 0.5407 p50 0.5882 p75 0.6284 avg 0.5859 std 0.0636
+RNN-MG ISIN-10%: p25 10.0 p50 15.0 p75 18.3333 avg 14.9333 std 5.7651
+RNN-MG ISIN-20%: p25 21.6667 p50 27.5 p75 33.3333 avg 27.9833 std 7.8938
+RNN-MG LL calculation and prediction, elapsed time: 0:02:59
+RNN-IndMGx3 LL-100%: p25 -9.0362 p50 -8.0682 p75 -7.3732 avg -8.1424 std 1.2188
+RNN-IndMGx3 TrainLL-100%: p25 -7.3409 p50 -5.9156 p75 -4.4706 avg -5.9105 std 2.0472
+RNN-IndMGx3 RMSE-100%: p25 0.5526 p50 0.5993 p75 0.6379 avg 0.5969 std 0.0618
+RNN-IndMGx3 ISIN-10%: p25 10.0 p50 13.3333 p75 18.3333 avg 14.3056 std 5.5117
+RNN-IndMGx3 ISIN-20%: p25 20.0 p50 25.0 p75 31.6667 avg 26.15 std 7.7389
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:07:16
+Results saved.
+Making directory ./results/raw/seqcomp/heartbeat
+Working on data/heartbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL-100%: p25 -14.2876 p50 1.1024 p75 19.2035 avg 2.2209 std 23.8159
+NN-MG TrainLL-100%: p25 -1.712 p50 14.0271 p75 27.2247 avg 12.8314 std 21.3739
+NN-MG RMSE-100%: p25 0.328 p50 0.4099 p75 0.5292 avg 0.46 std 0.1849
+NN-MG ISIN-10%: p25 9.3333 p50 15.3333 p75 25.3333 avg 18.5428 std 11.1998
+NN-MG ISIN-20%: p25 19.3333 p50 29.0 p75 45.6667 avg 33.8579 std 17.6294
+NN-MG LL calculation and prediction, elapsed time: 0:04:16
+RNN-STD RMSE-100%: p25 0.3544 p50 0.438 p75 0.5385 avg 0.4795 std 0.1873
+RNN-STD ISIN-10%: p25 7.6667 p50 11.3333 p75 20.3333 avg 14.7013 std 9.4904
+RNN-STD ISIN-20%: p25 15.6667 p50 23.6667 p75 38.5 avg 28.1767 std 16.3456
+RNN-STD LL calculation and prediction, elapsed time: 0:00:31
+RNN-IndMGx3 LL-100%: p25 -3.9843 p50 11.786 p75 26.5941 avg 11.4525 std 21.4949
+RNN-IndMGx3 TrainLL-100%: p25 -1.089 p50 14.6964 p75 28.5466 avg 13.5119 std 25.9028
+RNN-IndMGx3 RMSE-100%: p25 0.3559 p50 0.4428 p75 0.596 avg 0.5192 std 0.2673
+RNN-IndMGx3 ISIN-10%: p25 9.2896 p50 15.847 p75 26.2295 avg 18.409 std 12.2796
+RNN-IndMGx3 ISIN-20%: p25 18.0328 p50 30.6011 p75 45.9016 avg 33.6618 std 20.354
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.3559 p50 0.4428 p75 0.596 avg 0.5192 std 0.2673
+ALL-RNN-IndMGx3 ISIN-10%: p25 9.2896 p50 15.847 p75 26.2295 avg 18.409 std 12.2796
+ALL-RNN-IndMGx3 ISIN-20%: p25 18.0328 p50 30.6011 p75 45.9016 avg 33.6618 std 20.354
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:19:25
+RNN-MG LL-100%: p25 -13.661 p50 2.2485 p75 17.7684 avg 0.2584 std 30.8507
+RNN-MG TrainLL-100%: p25 -11.3098 p50 3.2098 p75 17.1469 avg 2.5639 std 31.4234
+RNN-IndMGx3 RMSE-100%: p25 0.3251 p50 0.3999 p75 0.52 avg 0.4512 std 0.177
+RNN-IndMGx3 ISIN-10%: p25 10.3333 p50 15.3333 p75 25.3333 avg 19.0128 std 11.6665
+RNN-IndMGx3 ISIN-20%: p25 19.8333 p50 29.3333 p75 46.8333 avg 34.6321 std 17.8225
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:20:16
+RNN-MG LL-100%: p25 -13.661 p50 2.2485 p75 17.7684 avg 0.2584 std 30.8507
+RNN-MG TrainLL-100%: p25 -11.3098 p50 3.2098 p75 17.1469 avg 2.5639 std 31.4234
+RNN-MG RMSE-100%: p25 0.3932 p50 0.4754 p75 0.6109 avg 0.5451 std 0.2473
+RNN-MG ISIN-10%: p25 7.1038 p50 12.0219 p75 21.8579 avg 15.5185 std 12.2379
+RNN-MG ISIN-20%: p25 12.5683 p50 22.9508 p75 37.9781 avg 27.1641 std 18.4087
+ALL-RNN-MG RMSE-100%: p25 0.3932 p50 0.4754 p75 0.6109 avg 0.5451 std 0.2473
+ALL-RNN-MG ISIN-10%: p25 7.1038 p50 12.0219 p75 21.8579 avg 15.5185 std 12.2379
+ALL-RNN-MG ISIN-20%: p25 12.5683 p50 22.9508 p75 37.9781 avg 27.1641 std 18.4087
+RNN-MG LL calculation and prediction, elapsed time: 0:54:04
+Results saved.
+Making directory ./results/raw/trajectory/facedetect
+Working on data/facedetect/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -178.6212 p50 -171.8419 p75 -165.5557 avg -174.5454 std 15.2327
+NN-MG TrainLL-100%: p25 -172.2159 p50 -158.8018 p75 -143.2978 avg -155.1255 std 22.4607
+RNN-MG RMSE-100%: p25 0.3413 p50 0.4264 p75 0.5351 avg 0.4622 std 0.1641
+RNN-MG ISIN-10%: p25 10.3333 p50 15.0 p75 25.0 avg 18.949 std 11.46
+RNN-MG ISIN-20%: p25 20.1667 p50 28.6667 p75 45.6667 avg 33.8434 std 17.1418
+RNN-MG LL calculation and prediction, elapsed time: 0:54:42
+Results saved.
+Making directory ./results/raw/seqcomp/facedetect
+Working on data/facedetect/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -178.6212 p50 -171.8419 p75 -165.5557 avg -174.5454 std 15.2327
+NN-MG TrainLL-100%: p25 -172.2159 p50 -158.8018 p75 -143.2978 avg -155.1255 std 22.4607
+NN-MG RMSE-100%: p25 0.7099 p50 0.7352 p75 0.7666 avg 0.739 std 0.0443
+NN-MG ISIN-10%: p25 2.0833 p50 2.7778 p75 3.4722 avg 2.8688 std 1.0789
+NN-MG ISIN-20%: p25 4.6296 p50 5.5556 p75 6.9444 avg 5.8866 std 1.7936
+ALL-NN-MG RMSE-100%: p25 0.7099 p50 0.7352 p75 0.7666 avg 0.739 std 0.0443
+ALL-NN-MG ISIN-10%: p25 2.0833 p50 2.7778 p75 3.4722 avg 2.8688 std 1.0789
+ALL-NN-MG ISIN-20%: p25 4.6296 p50 5.5556 p75 6.9444 avg 5.8866 std 1.7936
+NN-MG LL calculation and prediction, elapsed time: 2:27:10
+RNN-STD RMSE-100%: p25 0.6867 p50 0.7112 p75 0.7388 avg 0.7142 std 0.0403
+RNN-STD ISIN-10%: p25 3.0093 p50 3.9352 p75 4.8611 avg 4.0617 std 1.2846
+RNN-STD ISIN-20%: p25 6.6551 p50 7.8704 p75 9.2593 avg 8.1142 std 2.1152
+ALL-RNN-STD RMSE-100%: p25 0.6867 p50 0.7112 p75 0.7388 avg 0.7142 std 0.0403
+ALL-RNN-STD ISIN-10%: p25 3.0093 p50 3.9352 p75 4.8611 avg 4.0617 std 1.2846
+ALL-RNN-STD ISIN-20%: p25 6.6551 p50 7.8704 p75 9.2593 avg 8.1142 std 2.1152
+RNN-STD LL calculation and prediction, elapsed time: 0:00:14
+RNN-MG LL-100%: p25 -167.8812 p50 -158.4801 p75 -146.6911 avg -158.5556 std 15.4076
+RNN-MG TrainLL-100%: p25 -154.5588 p50 -140.613 p75 -123.183 avg -137.2528 std 23.4113
+NN-MG RMSE-100%: p25 0.6947 p50 0.7149 p75 0.7378 avg 0.7159 std 0.0325
+NN-MG ISIN-10%: p25 3.1944 p50 3.8194 p75 4.3056 avg 3.8218 std 0.8462
+NN-MG ISIN-20%: p25 6.8056 p50 7.7778 p75 8.6111 avg 7.8139 std 1.3291
+NN-MG LL calculation and prediction, elapsed time: 2:29:03
+RNN-STD RMSE-100%: p25 0.6858 p50 0.7059 p75 0.7258 avg 0.706 std 0.0299
+RNN-STD ISIN-10%: p25 3.75 p50 4.3056 p75 5.1389 avg 4.3838 std 0.9384
+RNN-STD ISIN-20%: p25 8.0556 p50 8.8889 p75 9.8958 avg 8.9435 std 1.4846
+RNN-STD LL calculation and prediction, elapsed time: 0:00:15
+RNN-MG LL-100%: p25 -167.8812 p50 -158.4801 p75 -146.6911 avg -158.5556 std 15.4076
+RNN-MG TrainLL-100%: p25 -154.5588 p50 -140.613 p75 -123.183 avg -137.2528 std 23.4113
+RNN-MG RMSE-100%: p25 0.6918 p50 0.7155 p75 0.7469 avg 0.7187 std 0.0399
+RNN-MG ISIN-10%: p25 2.7778 p50 3.4722 p75 4.3981 avg 3.6096 std 1.1475
+RNN-MG ISIN-20%: p25 6.0185 p50 7.4074 p75 8.7963 avg 7.4221 std 1.9983
+ALL-RNN-MG RMSE-100%: p25 0.6918 p50 0.7155 p75 0.7469 avg 0.7187 std 0.0399
+ALL-RNN-MG ISIN-10%: p25 2.7778 p50 3.4722 p75 4.3981 avg 3.6096 std 1.1475
+ALL-RNN-MG ISIN-20%: p25 6.0185 p50 7.4074 p75 8.7963 avg 7.4221 std 1.9983
+RNN-MG LL calculation and prediction, elapsed time: 0:35:27
+RNN-IndMGx3 LL-100%: p25 -163.0336 p50 -155.2265 p75 -144.2291 avg -155.2994 std 14.7397
+RNN-IndMGx3 TrainLL-100%: p25 -150.7594 p50 -137.1741 p75 -119.4645 avg -133.6312 std 23.405
+RNN-MG RMSE-100%: p25 0.6689 p50 0.6933 p75 0.7129 avg 0.6918 std 0.0301
+RNN-MG ISIN-10%: p25 4.3056 p50 4.8611 p75 5.6944 avg 5.0056 std 1.1101
+RNN-MG ISIN-20%: p25 8.6111 p50 9.8611 p75 11.1111 avg 10.062 std 1.8423
+RNN-MG LL calculation and prediction, elapsed time: 0:36:43
+RNN-IndMGx3 LL-100%: p25 -163.0336 p50 -155.2265 p75 -144.2291 avg -155.2994 std 14.7397
+RNN-IndMGx3 TrainLL-100%: p25 -150.7594 p50 -137.1741 p75 -119.4645 avg -133.6312 std 23.405
+RNN-IndMGx3 RMSE-100%: p25 0.7053 p50 0.7329 p75 0.7586 avg 0.7349 std 0.0423
+RNN-IndMGx3 ISIN-10%: p25 2.5463 p50 3.4722 p75 4.1667 avg 3.5177 std 1.1744
+RNN-IndMGx3 ISIN-20%: p25 5.5556 p50 6.713 p75 8.3333 avg 7.0586 std 1.9544
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.7053 p50 0.7329 p75 0.7586 avg 0.7349 std 0.0423
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.5463 p50 3.4722 p75 4.1667 avg 3.5177 std 1.1744
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.5556 p50 6.713 p75 8.3333 avg 7.0586 std 1.9544
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:30:16
+Results saved.
+Making directory ./results/raw/trajectory/brown_100
+Working on data/brown_100/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -141.9453 p50 -136.5604 p75 -131.2739 avg -137.1666 std 8.1828
+NN-MG TrainLL-100%: p25 -138.4734 p50 -133.5633 p75 -128.8931 avg -133.9121 std 7.214
+NN-MG RMSE-100%: p25 0.8616 p50 0.9029 p75 0.943 avg 0.9033 std 0.0631
+NN-MG ISIN-10%: p25 0.6667 p50 1.3333 p75 1.6667 avg 1.3422 std 0.7532
+NN-MG ISIN-20%: p25 2.0 p50 2.6667 p75 3.6667 avg 2.8356 std 1.1332
+ALL-NN-MG RMSE-100%: p25 0.8616 p50 0.9029 p75 0.943 avg 0.9033 std 0.0631
+ALL-NN-MG ISIN-10%: p25 0.6667 p50 1.3333 p75 1.6667 avg 1.3422 std 0.7532
+ALL-NN-MG ISIN-20%: p25 2.0 p50 2.6667 p75 3.6667 avg 2.8356 std 1.1332
+NN-MG LL calculation and prediction, elapsed time: 0:06:01
+RNN-STD RMSE-100%: p25 0.8439 p50 0.8893 p75 0.9261 avg 0.8885 std 0.0655
+RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1567 std 0.9578
+RNN-STD ISIN-20%: p25 1.3333 p50 2.0 p75 2.75 avg 2.3867 std 1.8675
+ALL-RNN-STD RMSE-100%: p25 0.8439 p50 0.8893 p75 0.9261 avg 0.8885 std 0.0655
+ALL-RNN-STD ISIN-10%: p25 0.6667 p50 1.0 p75 1.6667 avg 1.1567 std 0.9578
+ALL-RNN-STD ISIN-20%: p25 1.3333 p50 2.0 p75 2.75 avg 2.3867 std 1.8675
+RNN-STD LL calculation and prediction, elapsed time: 0:00:11
+RNN-MG LL-100%: p25 -141.3777 p50 -135.761 p75 -131.5191 avg -136.5463 std 7.2883
+RNN-MG TrainLL-100%: p25 -140.2882 p50 -135.319 p75 -130.555 avg -135.5445 std 7.4696
+RNN-MG RMSE-100%: p25 0.8704 p50 0.9128 p75 0.9484 avg 0.9117 std 0.0594
+RNN-MG ISIN-10%: p25 1.3333 p50 2.0 p75 2.4167 avg 2.0311 std 0.8939
+RNN-MG ISIN-20%: p25 3.3333 p50 4.0 p75 4.6667 avg 4.08 std 1.2778
+ALL-RNN-MG RMSE-100%: p25 0.8704 p50 0.9128 p75 0.9484 avg 0.9117 std 0.0594
+ALL-RNN-MG ISIN-10%: p25 1.3333 p50 2.0 p75 2.4167 avg 2.0311 std 0.8939
+ALL-RNN-MG ISIN-20%: p25 3.3333 p50 4.0 p75 4.6667 avg 4.08 std 1.2778
+RNN-MG LL calculation and prediction, elapsed time: 0:07:02
+RNN-IndMGx3 LL-100%: p25 -117.6273 p50 -104.358 p75 -91.8592 avg -103.0166 std 20.7735
+RNN-IndMGx3 TrainLL-100%: p25 -113.2835 p50 -99.6769 p75 -84.6699 avg -98.5273 std 21.2973
+RNN-IndMGx3 RMSE-100%: p25 0.9107 p50 0.9871 p75 1.028 avg 0.9638 std 0.1001
+RNN-IndMGx3 ISIN-10%: p25 2.6667 p50 3.6667 p75 14.9167 avg 11.3089 std 14.7331
+RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.6667 p75 23.5 avg 14.1622 std 14.4833
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.9107 p50 0.9871 p75 1.028 avg 0.9638 std 0.1001
+ALL-RNN-IndMGx3 ISIN-10%: p25 2.6667 p50 3.6667 p75 14.9167 avg 11.3089 std 14.7331
+ALL-RNN-IndMGx3 ISIN-20%: p25 5.3333 p50 6.6667 p75 23.5 avg 14.1622 std 14.4833
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:29
+Results saved.
+Making directory ./results/raw/trajectory/wingbeat
+Working on data/wingbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -268.5754 p50 -155.5441 p75 -109.5633 avg -235.3982 std 243.0029
+NN-MG TrainLL-100%: p25 -194.5441 p50 -141.5564 p75 -99.7502 avg -166.0989 std 131.4508
+NN-MG RMSE-100%: p25 0.3905 p50 0.4642 p75 0.5489 avg 0.4972 std 0.1634
+NN-MG ISIN-10%: p25 1.8425 p50 2.5126 p75 3.5595 avg 2.8185 std 1.3762
+NN-MG ISIN-20%: p25 3.8107 p50 4.8576 p75 7.2027 avg 5.5667 std 2.5763
+ALL-NN-MG RMSE-100%: p25 0.3905 p50 0.4642 p75 0.5489 avg 0.4972 std 0.1634
+ALL-NN-MG ISIN-10%: p25 1.8425 p50 2.5126 p75 3.5595 avg 2.8185 std 1.3762
+ALL-NN-MG ISIN-20%: p25 3.8107 p50 4.8576 p75 7.2027 avg 5.5667 std 2.5763
+NN-MG LL calculation and prediction, elapsed time: 0:05:05
+RNN-STD RMSE-100%: p25 0.3063 p50 0.381 p75 0.4676 avg 0.4155 std 0.1845
+RNN-STD ISIN-10%: p25 2.0101 p50 3.3501 p75 6.3652 avg 4.7577 std 3.9545
+RNN-STD ISIN-20%: p25 4.1876 p50 6.1977 p75 12.7303 avg 8.8303 std 6.2319
+ALL-RNN-STD RMSE-100%: p25 0.3063 p50 0.381 p75 0.4676 avg 0.4155 std 0.1845
+ALL-RNN-STD ISIN-10%: p25 2.0101 p50 3.3501 p75 6.3652 avg 4.7577 std 3.9545
+ALL-RNN-STD ISIN-20%: p25 4.1876 p50 6.1977 p75 12.7303 avg 8.8303 std 6.2319
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 -114.1319 p50 -43.3287 p75 16.6305 avg -57.2524 std 114.5825
+RNN-IndMGx3 TrainLL-100%: p25 -91.1235 p50 -28.3553 p75 29.011 avg -33.8422 std 91.2692
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+RNN-IndMGx3 RMSE-100%: p25 0.6705 p50 0.6921 p75 0.7117 avg 0.6914 std 0.0306
+RNN-IndMGx3 ISIN-10%: p25 4.3056 p50 5.0 p75 5.6944 avg 5.0051 std 1.0904
+RNN-IndMGx3 ISIN-20%: p25 8.8889 p50 10.0 p75 11.3889 avg 10.25 std 1.8403
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:33:30
+Results saved.
+Making directory ./results/raw/seqcomp/brown_100
+Working on data/brown_100/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -141.9453 p50 -136.5604 p75 -131.2739 avg -137.1666 std 8.1828
+NN-MG TrainLL-100%: p25 -138.4734 p50 -133.5633 p75 -128.8931 avg -133.9121 std 7.214
+RNN-IndMGx3 RMSE-100%: p25 0.2973 p50 0.3841 p75 0.4752 avg 0.4103 std 0.1914
+RNN-IndMGx3 ISIN-10%: p25 3.1826 p50 5.6951 p75 7.8727 avg 5.8286 std 3.8295
+RNN-IndMGx3 ISIN-20%: p25 6.4908 p50 11.6415 p75 15.7454 avg 11.4322 std 6.8459
+ALL-RNN-IndMGx3 RMSE-100%: p25 0.2973 p50 0.3841 p75 0.4752 avg 0.4103 std 0.1914
+ALL-RNN-IndMGx3 ISIN-10%: p25 3.1826 p50 5.6951 p75 7.8727 avg 5.8286 std 3.8295
+ALL-RNN-IndMGx3 ISIN-20%: p25 6.4908 p50 11.6415 p75 15.7454 avg 11.4322 std 6.8459
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:59
+RNN-MG LL-100%: p25 -237.2209 p50 -139.9786 p75 -78.1763 avg -203.3685 std 227.7074
+RNN-MG TrainLL-100%: p25 -168.0898 p50 -107.1665 p75 -55.8816 avg -127.7334 std 135.0636
+NN-MG RMSE-100%: p25 0.8484 p50 0.8721 p75 0.9044 avg 0.875 std 0.0407
+NN-MG ISIN-10%: p25 2.2 p50 2.8 p75 3.6 avg 2.9313 std 1.0338
+NN-MG ISIN-20%: p25 4.8 p50 5.8 p75 6.8 avg 5.94 std 1.6828
+NN-MG LL calculation and prediction, elapsed time: 0:07:12
+RNN-STD RMSE-100%: p25 0.8541 p50 0.8804 p75 0.9062 avg 0.8806 std 0.0376
+RNN-STD ISIN-10%: p25 0.8 p50 1.2 p75 1.6 avg 1.1647 std 0.5645
+RNN-STD ISIN-20%: p25 1.8 p50 2.4 p75 3.0 avg 2.3947 std 0.9127
+RNN-STD LL calculation and prediction, elapsed time: 0:00:11
+RNN-MG LL-100%: p25 -141.3777 p50 -135.761 p75 -131.5191 avg -136.5463 std 7.2883
+RNN-MG TrainLL-100%: p25 -140.2882 p50 -135.319 p75 -130.555 avg -135.5445 std 7.4696
+RNN-MG RMSE-100%: p25 0.3652 p50 0.4462 p75 0.5251 avg 0.4703 std 0.1739
+RNN-MG ISIN-10%: p25 2.1776 p50 3.1826 p75 4.3551 avg 3.4132 std 1.9035
+RNN-MG ISIN-20%: p25 4.5226 p50 6.3652 p75 8.3752 avg 6.8476 std 3.4575
+ALL-RNN-MG RMSE-100%: p25 0.3652 p50 0.4462 p75 0.5251 avg 0.4703 std 0.1739
+ALL-RNN-MG ISIN-10%: p25 2.1776 p50 3.1826 p75 4.3551 avg 3.4132 std 1.9035
+ALL-RNN-MG ISIN-20%: p25 4.5226 p50 6.3652 p75 8.3752 avg 6.8476 std 3.4575
+RNN-MG LL calculation and prediction, elapsed time: 0:10:35
+Results saved.
+Done.
+RNN-MG RMSE-100%: p25 0.8387 p50 0.8681 p75 0.8978 avg 0.8681 std 0.0408
+RNN-MG ISIN-10%: p25 2.2 p50 2.9 p75 3.8 avg 3.0873 std 1.0858
+RNN-MG ISIN-20%: p25 4.95 p50 6.0 p75 7.4 avg 6.282 std 1.7993
+RNN-MG LL calculation and prediction, elapsed time: 0:07:50
+RNN-IndMGx3 LL-100%: p25 -117.6273 p50 -104.358 p75 -91.8592 avg -103.0166 std 20.7735
+RNN-IndMGx3 TrainLL-100%: p25 -113.2835 p50 -99.6769 p75 -84.6699 avg -98.5273 std 21.2973
+RNN-IndMGx3 RMSE-100%: p25 0.8017 p50 0.8404 p75 0.876 avg 0.8373 std 0.0574
+RNN-IndMGx3 ISIN-10%: p25 10.4 p50 11.8 p75 20.6 avg 14.4647 std 9.6404
+RNN-IndMGx3 ISIN-20%: p25 12.2 p50 13.8 p75 22.2 avg 16.4173 std 9.633
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:25
+Results saved.
+Making directory ./results/raw/seqcomp/wingbeat
+Working on data/wingbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL-100%: p25 -268.5754 p50 -155.5441 p75 -109.5633 avg -235.3982 std 243.0029
+NN-MG TrainLL-100%: p25 -194.5441 p50 -141.5564 p75 -99.7502 avg -166.0989 std 131.4508
+NN-MG RMSE-100%: p25 0.545 p50 0.601 p75 0.677 avg 0.6179 std 0.1229
+NN-MG ISIN-10%: p25 1.5873 p50 2.1645 p75 2.7417 avg 2.1866 std 0.8162
+NN-MG ISIN-20%: p25 3.367 p50 4.2388 p75 5.0505 avg 4.3978 std 1.3665
+NN-MG LL calculation and prediction, elapsed time: 0:05:58
+RNN-STD RMSE-100%: p25 0.4711 p50 0.5407 p75 0.6152 avg 0.55 std 0.1383
+RNN-STD ISIN-10%: p25 1.2987 p50 1.5873 p75 2.1645 avg 1.7193 std 0.6416
+RNN-STD ISIN-20%: p25 2.7417 p50 3.4792 p75 4.0404 avg 3.4969 std 1.0209
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL-100%: p25 -114.1319 p50 -43.3287 p75 16.6305 avg -57.2524 std 114.5825
+RNN-IndMGx3 TrainLL-100%: p25 -91.1235 p50 -28.3553 p75 29.011 avg -33.8422 std 91.2692
+/home/leondong/miniconda3/envs/py38/lib/python3.8/site-packages/numpy/linalg/linalg.py:2158: RuntimeWarning: overflow encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+RNN-IndMGx3 RMSE-100%: p25 0.4724 p50 0.544 p75 0.6121 avg 0.5521 std 0.1387
+RNN-IndMGx3 ISIN-10%: p25 2.0202 p50 2.7738 p75 3.7518 avg 2.9675 std 1.2247
+RNN-IndMGx3 ISIN-20%: p25 4.329 p50 5.772 p75 7.6479 avg 6.0778 std 2.3262
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:23
+RNN-MG LL-100%: p25 -237.2209 p50 -139.9786 p75 -78.1763 avg -203.3685 std 227.7074
+RNN-MG TrainLL-100%: p25 -168.0898 p50 -107.1665 p75 -55.8816 avg -127.7334 std 135.0636
+RNN-MG RMSE-100%: p25 0.5105 p50 0.5671 p75 0.6414 avg 0.5834 std 0.1259
+RNN-MG ISIN-10%: p25 2.0202 p50 2.5533 p75 3.2918 avg 2.7066 std 1.0687
+RNN-MG ISIN-20%: p25 4.0404 p50 5.0505 p75 6.3781 avg 5.46 std 1.9345
+RNN-MG LL calculation and prediction, elapsed time: 0:11:16
+Results saved.
+Done.

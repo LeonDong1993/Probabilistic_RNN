@@ -1,0 +1,89 @@
+Making directory ./results/raw/time/japanvowels
+Working on data/japanvowels/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:00:40
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL calculation and prediction, elapsed time: 0:01:45
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:09
+Results saved.
+Making directory ./results/raw/time/natops
+Working on data/natops/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:00:29
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL calculation and prediction, elapsed time: 0:02:27
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:20
+Results saved.
+Making directory ./results/raw/time/fingermovement
+Working on data/fingermovement/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:01:25
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:02:14
+RNN-MG LL calculation and prediction, elapsed time: 0:01:34
+Results saved.
+Making directory ./results/raw/time/lsst
+Working on data/lsst/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:00:30
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-MG LL calculation and prediction, elapsed time: 0:02:42
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:06:47
+Results saved.
+Making directory ./results/raw/time/wordrecognition
+Working on data/wordrecognition/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:00:45
+RNN-STD LL calculation and prediction, elapsed time: 0:00:06
+RNN-MG LL calculation and prediction, elapsed time: 0:10:12
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:14:55
+Results saved.
+Making directory ./results/raw/time/conll2000
+Working on data/conll2000/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:03:12
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:05:21
+RNN-MG LL calculation and prediction, elapsed time: 0:04:11
+Results saved.
+Making directory ./results/raw/time/arabicdigit
+Working on data/arabicdigit/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:00:45
+RNN-STD LL calculation and prediction, elapsed time: 0:00:02
+RNN-MG LL calculation and prediction, elapsed time: 0:03:03
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:07:41
+Results saved.
+Making directory ./results/raw/time/heartbeat
+Working on data/heartbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:00
+NN-MG LL calculation and prediction, elapsed time: 0:04:15
+RNN-STD LL calculation and prediction, elapsed time: 0:00:32
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:21:23
+RNN-MG LL calculation and prediction, elapsed time: 0:56:51
+Results saved.
+Making directory ./results/raw/time/facedetect
+Working on data/facedetect/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL calculation and prediction, elapsed time: 2:13:22
+RNN-STD LL calculation and prediction, elapsed time: 0:00:15
+RNN-MG LL calculation and prediction, elapsed time: 0:33:46
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:33:07
+Results saved.
+Making directory ./results/raw/time/brown_100
+Working on data/brown_100/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL calculation and prediction, elapsed time: 0:05:56
+RNN-STD LL calculation and prediction, elapsed time: 0:00:10
+RNN-MG LL calculation and prediction, elapsed time: 0:07:14
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:04:05
+Results saved.
+Making directory ./results/raw/time/wingbeat
+Working on data/wingbeat/seqs.fdt ...
+Load complete, elapsed time: 0:00:01
+NN-MG LL calculation and prediction, elapsed time: 0:05:54
+RNN-STD LL calculation and prediction, elapsed time: 0:00:01
+RNN-IndMGx3 LL calculation and prediction, elapsed time: 0:03:13
+RNN-MG LL calculation and prediction, elapsed time: 0:10:38
+Results saved.
+Done.

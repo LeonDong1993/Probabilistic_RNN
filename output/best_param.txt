@@ -1,0 +1,111 @@
+Input data is data/japanvowels/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.01571885351639009, 72, 0.00986060838182274, 0.0001995165173931174] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.07038558478650116, 72, 0.0026026978902078794, 0.00013601268021017627] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.05671621617841659, 72, 0.002331509404832599, 0.002720243949714898] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.03624127593101818, 96, 0.004912063708718849, 0.021371920101948834] 
+Input data is data/natops/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.03567539393902354, 112, 0.009490153083642651, 0.00038303116581915006] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.13713357568316012, 112, 0.006484545191394463, 0.00012465642110707267] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.027134161453700057, 84, 0.0104183872168605, 0.0015490736591403072] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.02440385464582326, 112, 0.002889740291684773, 0.002321977131252761] 
+Input data is data/fingermovement/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.24468662148189044, 168, 0.012034957807999581, 0.0024496541443784327] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.03180876383686262, 168, 0.007290781902691084, 0.0001222747036081632] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.04830674377635748, 224, 0.004366767523471388, 0.0007957404740306171] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.018321395425750855, 168, 0.003374131963132021, 0.0013632022324268872] 
+Input data is data/lsst/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.051759790681414314, 48, 0.01156517593920161, 0.00020800496098543605] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.06932082957660832, 48, 0.006023643365344028, 0.00021059976011394578] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.02066212961183777, 48, 0.01583619514408369, 0.000301059734583426] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.04793450034215374, 36, 0.021818444616478878, 0.00021549855887318918] 
+Input data is data/wordrecognition/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.018344304012014815, 72, 0.013527042006690046, 0.00015642277402596233] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.006405090459262519, 18, 0.02804962382790698, 0.00018853926338300724] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.023399968613987097, 72, 0.014778551813840564, 0.0001808898132143462] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.0029576588015921904, 54, 0.020209497132672668, 0.0013401242811365087] 
+Input data is data/conll2000/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.11699302844148347, 400, 0.00026131194411284754, 0.3297680281461652] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.060404002847811715, 200, 0.0017363883650384434, 0.00016486239083021202] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.33010315443317073, 400, 0.006267205576207152, 0.004380164729757056] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.2805003510466094, 200, 0.0074972663738839635, 0.018540352583246215] 
+Input data is data/arabicdigit/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.032135167779960866, 104, 0.016247754694262814, 0.00023252836835333088] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.00034912860420823616, 104, 0.0014780134602076567, 0.0001716972991724793] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.10867100120889661, 104, 0.003683462976434109, 0.00031487501571222384] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.03504878912967868, 104, 0.0020758191157732725, 0.0012950514626470617] 
+Input data is data/heartbeat/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.23649297884194553, 244, 0.009757108200079842, 0.0004983906600307844] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.27608035247258567, 366, 0.0011062247744450641, 0.00016185987043731685] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.10006358679421071, 122, 0.009873786017246814, 0.004329067193494223] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.016831016231981744, 488, 0.0026141096498733356, 0.043031279392153] 
+Input data is data/facedetect/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.13292770235888446, 864, 0.02027237606072192, 0.0024544265330750897] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.1906209331488883, 576, 0.0035677194997041782, 0.00010378096929323942] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.34613672918949834, 576, 0.00468772067826811, 0.007418323554102802] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.23554403861096354, 576, 0.0027614497372472004, 0.00886117536630172] 
+Input data is data/brown_100/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.17557650996541768, 800, 0.0002066552424085216, 0.10414880539648068] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.16385667150094918, 200, 0.005269135104253585, 0.0012610162001395813] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.010860443666253217, 800, 0.0011705811427754854, 0.00011429590900764048] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.22369380838604724, 400, 0.04740297147995936, 0.007399176190146447] 
+Input data is data/wingbeat/seqs.fdt
+Directory already exist!
+Load from existing study.
+NN-MG Best hyper-param found: [0.3535491893763683, 398, 0.0077807248371932975, 0.02973395754200505] 
+Load from existing study.
+RNN-STD Best hyper-param found: [0.1542308352761112, 398, 0.00041767793737299843, 0.00010080766928221968] 
+Load from existing study.
+RNN-IndMGx3 Best hyper-param found: [0.29704810169020446, 398, 0.010331773185115982, 0.00029863045625888444] 
+Load from existing study.
+RNN-MG Best hyper-param found: [0.27463356188468174, 796, 0.003164929270479971, 0.005793980160427861] 
+Done.
